@@ -1,6 +1,6 @@
 # Sunbird Lern
 
-Sunbird _Lern_ is a building block comprising of core services that enable tracking of a user’s learning journey as well as enables user interactions and collaborations providing various set of tools and micro by services. These capabilities can be leveraged by any adopter with requirements for measurement of learning progress, creation and management of cohorts/ batches of learners, as well as enabling collaboration capabilities such as Groups or Discussion forums.&#x20;
+Sunbird _Lern_ is a building block comprising of core services that enable tracking of a user’s learning journey as well as enables user interactions and collaborations by providing various set of tools and micro services. These capabilities can be leveraged by any adopter with requirements for measurement of learning progress, creation and management of cohorts/ batches of learners, as well as enabling collaboration capabilities such as Groups or Discussion forums.&#x20;
 
 The _Lern_ services are also employed for creation and management of user accounts and organisations within the Sunbird instance.
 
@@ -13,4 +13,37 @@ This building block consists of several components, each of which provides speci
 * Groups and Discussion Forums for collaboration
 * Notifications for users
 
-![](<.gitbook/assets/Screenshot 2021-11-18 at 08.28.28.png>)
+__
+
+_Lern_ can be leveraged to:
+
+\> Bulk-create a set of user accounts for a set of `participants` in a workshop that `uses` an online platform/ Sunbird
+
+`> Assign rights` (say content creation rights) to an identified set of `users` for a content creation workshop
+
+\> Assign a group of `learners` to a batch and allow them `take a course` within  specified start-end dates.
+
+\> Enable a discussion forum for a course so that `participants` can `collaborate`
+
+\> Create a `group of users`, assign learning material and quizzes to them, and `track their progress` against these activities.
+
+\> Send `notifications to a set of users` about new content / activities that have been added on the platform&#x20;
+
+
+
+Various components of _Lern_ permit for different configurations, allowing the system to enable various workflows as required. Learn about the configurations that each component allows for, on the page for the specific component, as enumerated on the left panel.
+
+
+
+**Adopters: **Diksha,&#x20;
+
+**Contributors**: EkStep,&#x20;
+
+**Last Release Date**:
+
+**Version**:
+
+
+
+
+
