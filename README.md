@@ -15,7 +15,7 @@ This building block consists of several components, each of which provides speci
 
 __
 
-_Lern_ can be leveraged to:
+_<mark style="color:blue;">Lern</mark>_ <mark style="color:blue;">can be leveraged to:</mark>
 
 \> Bulk-create a set of user accounts for a set of `participants` in a workshop that `uses` an online platform/ Sunbird
 
