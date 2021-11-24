@@ -4,6 +4,7 @@
 
 ## LEARN
 
+* [Use Cases](learn/use-cases.md)
 * [Components](learn/components/README.md)
   * [USER & ORG SERVICE](learn/components/user-and-org-service.md)
   * [BATCH SERVICE](learn/components/batch-service.md)
@@ -15,8 +16,8 @@
 
 ## ENGAGE
 
-* [Page 2](engage/page-2.md)
+* [Discuss](engage/discuss.md)
 
 ## USE
 
-* [Page 3](use/page-3.md)
+* [Install](use/install.md)
