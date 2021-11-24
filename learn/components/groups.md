@@ -2,7 +2,7 @@
 
 Groups is a pluggable tool on Sunbird that enables users to create virtual groups of users, assign assets to the Group, as well as review asset progress of the users.
 
-
+Groups component comprises of the Groups Service (APIs) as well as the Groups UX tools. Groups UX is still part of Sunbrid-Ed.
 
 Watch the video on the learning series on Sunbird Groups [here](https://www.youtube.com/watch?v=zXxEHxhSqqw)
 
@@ -15,9 +15,17 @@ Watch the video on the learning series on Sunbird Groups [here](https://www.yout
 5. Group related in-app notifications are enabled with the help of Sunbird Lern - Notification service.
 6. Redis cache support can be enabled for caching groups list and the group details using configuration. For a user group list, the default caching time is 3600 seconds and that of each group details is 86400 seconds.
 
-Groups component comprises of the Groups Service (APIs) as well as the Groups UX tools. Groups UX is still part of Sunbrid-Ed.
+#### Configuration Reference:
 
-
+| Property                     | Description                                                        | Default Value |
+| ---------------------------- | ------------------------------------------------------------------ | ------------- |
+| max\_group\_limit            | Maximum number of groups   a user can create                       | 50            |
+| max\_group\_members\_limit   | Maximum number of members a group can have                         | 150           |
+| max\_activity\_limit         | Maximum number of activities a group can have                      | 20            |
+| enable\_userid\_redis\_cache | To enable cache for groups and group details                       | true          |
+| groups\_redis\_ttl           | Group details cache duration                                       | 86400         |
+| user\_redis\_ttl             | User group list cache duration                                     | 3600          |
+| activityConfig               | To configure various types of activities and services to fetch it. |               |
 
 **Adopters: **Diksha
 
