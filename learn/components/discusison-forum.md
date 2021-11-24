@@ -17,6 +17,8 @@ The Discussions Forum allows users to participate in multiple discussions on the
 
 #### Configuration:
 
+[https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/2259812379/Developer+s+Doc+How+to+setup+and+use+Discussions-middleware](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/2259812379/Developer+s+Doc+How+to+setup+and+use+Discussions-middleware)
+
 [https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/1981546511/Discussion+Forum+Deployment](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/1981546511/Discussion+Forum+Deployment)
 
 **Adopters: **Diksha
