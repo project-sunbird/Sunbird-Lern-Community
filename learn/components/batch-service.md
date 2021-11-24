@@ -13,11 +13,7 @@ The following are a few sample functionalities that the Batch Service APIs can b
 
 
 
-
-
-![](<../../.gitbook/assets/image (1).png>)
-
-
+![](<../../.gitbook/assets/image (2).png>)
 
 There are various configurations that can be made via the Batch Service:
 
@@ -27,8 +23,6 @@ There are various configurations that can be made via the Batch Service:
 * Criteria for earning a certificate (minimum score for the course assessment)
 
 
-
-_\<Link to Git documentation on configurations for batches> _
 
 #### Source Code:
 

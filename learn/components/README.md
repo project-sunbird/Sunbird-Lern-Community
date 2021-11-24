@@ -1,8 +1,8 @@
 # Components
 
-Lern comprises of a set of varied functionalities that power workflows in the other building blocks as well - including user creation and management, **\<TBD>**
+_Lern_ enables of a set of varied functionalities that power workflows in the other building blocks.
 
-The following table lists out the various components that make up the Sunbird _Lern_ building block, with a brief description of what each module pertains to. This can be used to get an understanding of what capabilities this specific building block can be used for
+The following table lists out the various components that make up the Sunbird _Lern_ building block, with a brief description of what each module pertains to. This can be used to get an understanding of what capabilities this specific building block can be used for:
 
 
 
