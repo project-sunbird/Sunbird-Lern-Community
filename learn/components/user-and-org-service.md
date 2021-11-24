@@ -2,7 +2,9 @@
 
 This component consists of various services which support user authentication, API management and token generation, Samza jobs for asynchronous notification along with user and organisation management.
 
-![](../../.gitbook/assets/UserRegistration.png)
+
+
+![User Account Creation](../../.gitbook/assets/UserRegistration.png)
 
 The table below lists out the various APIs that enable the various capabilities listed. Further documentation about these APIs and their details can be found in the respective API documents.
 
