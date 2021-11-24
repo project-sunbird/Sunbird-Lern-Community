@@ -2,6 +2,10 @@
 
 Groups is a pluggable tool on Sunbird that enables users to create virtual groups of users, assign assets to the Group, as well as review asset progress of the users.
 
+
+
+Watch the video on the learning series on Sunbird Groups [here](https://www.youtube.com/watch?v=zXxEHxhSqqw)
+
 #### Key Features:
 
 1. Group Creation - Any type of user could create groups and any number of groups can be created. Maximum 50 groups can be created by a user as per the default configuration.

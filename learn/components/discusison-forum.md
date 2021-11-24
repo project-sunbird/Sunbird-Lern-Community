@@ -4,6 +4,10 @@ A better community platform for the modern web. User can ask their queries relat
 
 It comprises of the Discussion Forum Service (APIs) which acts as a proxy layer for discussion-UI & NodeBB as well as the Discussion Forum UX tool.
 
+Watch the video on the learning series on Sunbird Discussion Forums [here](https://www.youtube.com/watch?v=OGj4qz4OBUY)
+
+
+
 GitHub Repo:
 
 [GitHub - Sunbird-Ed/discussions-middleware: bankend application which acts as a proxy layer for disuccion-UI & NodeBB API's..](https://github.com/Sunbird-Ed/discussions-middleware)
