@@ -6,22 +6,6 @@ This component consists of various services which support user authentication, A
 
 ![User Account Creation](../../.gitbook/assets/UserRegistration.png)
 
-The table below lists out the various APIs that enable the various capabilities listed. Further documentation about these APIs and their details can be found in the respective API documents.
-
-**API List:**
-
-| SERVICE                    | DESCRIPTION | APIs                                                                                                                 |
-| -------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------- |
-| User accounts (CRUD)       |             | [http://docs.sunbird.org/latest/apis/userapi/](http://docs.sunbird.org/latest/apis/userapi/)                         |
-| Organisations (CRUD)       |             | [http://docs.sunbird.org/latest/apis/orgapi/](http://docs.sunbird.org/latest/apis/orgapi/)                           |
-| Location (CRUD)            |             | [http://docs.sunbird.org/latest/apis/locationapi/](http://docs.sunbird.org/latest/apis/locationapi/)                 |
-| Consent Management         |             | [http://docs.sunbird.org/latest/apis/consentapi/](http://docs.sunbird.org/latest/apis/consentapi/)                   |
-| OTP Services               |             | [http://docs.sunbird.org/latest/apis/otpapi/](http://docs.sunbird.org/latest/apis/otpapi/)                           |
-| Notes Management           |             |                                                                                                                      |
-| Tenant Configurations      |             | [http://docs.sunbird.org/latest/apis/tenantpreferenceapi/](http://docs.sunbird.org/latest/apis/tenantpreferenceapi/) |
-| Backend Services           |             | [http://docs.sunbird.org/latest/apis/bulkupload/](http://docs.sunbird.org/latest/apis/bulkupload/)                   |
-| <p><br>System Settings</p> |             | [http://docs.sunbird.org/latest/apis/systemsettingsapi/](http://docs.sunbird.org/latest/apis/systemsettingsapi/)     |
-
 ### User & Org Service: <a href="user-and-org-service" id="user-and-org-service"></a>
 
 This service provides a set of APIs to manage the user, organisation and location information.&#x20;
@@ -30,15 +14,31 @@ This service provides a set of APIs to manage the user, organisation and locatio
 2. **Organisation** - Supports tenant or non-tenant organisation. Tenant organisation has to have a channel and slug which is unique. Non-tenant organisations should have a channel which is having a tenant mapped to it. There should be a default organisation called ‘custodian’ created during setup.
 3. **User** - User can be a LUA(Logged in User) or MUA(Managed User) user. LUA should have an email or phone number, which can be used for login. MUA will not have email and phone, their profile can be only used after logging in with LUA credentials. Each user should be mapped to custodian or other tenant orgs.&#x20;
 
-**GitHub Repository:**
+**Key Features:**
 
-[![](https://github.com/fluidicon.png)GitHub - project-sunbird/sunbird-lms-service: API services for Learning management system of sunbird](https://github.com/project-sunbird/sunbird-lms-service)
+| Feature                        | Description                                                                                                                                                                         | API Documentation                                                                                                    |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| User Management (CRUD)         | Creation of LUA and MUA users and updating user profile, fetching user information, block and unblock user, associating user with organisation etc are implemented via this feature | http://docs.sunbird.org/latest/apis/userapi/                                                                         |
+| Organisation Management (CRUD) | This feature provides CRUD APIs for maintaining organisation details.                                                                                                               | [http://docs.sunbird.org/latest/apis/orgapi/](http://docs.sunbird.org/latest/apis/orgapi/)                           |
+| Location Management (CRUD)     | Provides CRUD APIs for managing location master data.                                                                                                                               | [http://docs.sunbird.org/latest/apis/locationapi/](http://docs.sunbird.org/latest/apis/locationapi/)                 |
+| Consent Management             | This helps to capture user consent to share the PII in organisation level and course collection level.                                                                              | [http://docs.sunbird.org/latest/apis/consentapi/](http://docs.sunbird.org/latest/apis/consentapi/)                   |
+| OTP Services                   | Helps to generate OTP and send notification either through email or phone. Also OTP validation, expiry, rate limit are managed using this feature.                                  | [http://docs.sunbird.org/latest/apis/otpapi/](http://docs.sunbird.org/latest/apis/otpapi/)                           |
+| Notes Management               | User can capture notes when content is being played. This service provides the CRUD APIs for the same.                                                                              |                                                                                                                      |
+| Tenant Configurations          | This service can be used to maintain tenant organisation  level configurations.                                                                                                     | [http://docs.sunbird.org/latest/apis/tenantpreferenceapi/](http://docs.sunbird.org/latest/apis/tenantpreferenceapi/) |
+| Backend Services               | Admins can upload master data in to location, organisation. This service allows to create users and update user information.                                                        | [http://docs.sunbird.org/latest/apis/bulkupload/](http://docs.sunbird.org/latest/apis/bulkupload/)                   |
+| <p><br>System Settings</p>     | This service is used to configure system / application settings like default organisation, various T\&C etc                                                                         | [http://docs.sunbird.org/latest/apis/systemsettingsapi/](http://docs.sunbird.org/latest/apis/systemsettingsapi/)     |
 
-**Last Released Version : **
+**Source Code:**
 
-release-4.3.0
+[GitHub - project-sunbird/sunbird-lms-service: API services for Learning management system of sunbird](https://github.com/project-sunbird/sunbird-lms-service)
 
-&#x20;
+**Adopters: **Diksha
+
+**Contributors**: EkStep
+
+**Last Release Date**: Oct 21 2021
+
+**Version : **4.3.0&#x20;
 
 ### Authentication: <a href="authentication" id="authentication"></a>
 
@@ -48,9 +48,13 @@ This service is used to validate a user while authenticating using keycloak. Key
 
 [GitHub - project-sunbird/sunbird-auth: Repository for sunbird authentication service](https://github.com/project-sunbird/sunbird-auth)
 
-**Last Released Version : **
+**Adopters: **Diksha
 
-release-3.8.0
+**Contributors**: EkStep
+
+**Last Release Date**:&#x20;
+
+**Version : **3.8.0
 
 ### API manager util: <a href="api-manager-util" id="api-manager-util"></a>
 
@@ -60,9 +64,13 @@ Wrapper for Kong admin util. This wrapper exposes APIs which can be used to regi
 
 [GitHub - project-sunbird/sunbird-apimanager-util: Wrapper for Kong admin util](https://github.com/project-sunbird/sunbird-apimanager-util)
 
-**Last Released Version : **
+**Adopters: **Diksha
 
-release-4.3.0
+**Contributors**: EkStep
+
+**Last Release Date**: Oct 21 2021
+
+**Version : **4.3.0
 
 ### Background Jobs: <a href="background-jobs" id="background-jobs"></a>
 
@@ -72,6 +80,10 @@ This repository is for event driven jobs user in Sunbird User & Org Service
 
 [GitHub - project-sunbird/sunbird-lms-jobs: Repository for background jobs in Sunbird LMS](https://github.com/project-sunbird/sunbird-lms-jobs)
 
-**Last Released Version : **
+**Adopters: **Diksha
 
-release-3.7.0
+**Contributors**: EkStep
+
+**Last Release Date**:&#x20;
+
+**Version : **3.7.0
