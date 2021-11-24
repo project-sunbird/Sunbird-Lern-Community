@@ -7,9 +7,9 @@ The Batch Service comprises APIs that permit for creation of Batches of users in
 The following are a few sample functionalities that the Batch Service APIs can be used for, on the platform:
 
 * [x] Creation of a new batch for an existing/ new course, so as to track a cohort of users who are expected to take the course
-* [x] Configurations for the Batch such as - Closed batch (invite only), certificate criteria (minimum score of 70% for the course assessment) etc.
+* [x] Configurations for the Batch such as - Closed batch (invite only), certificate criteria (completion of the course and minimum score of 70% for the course assessment) etc.
 * [x] Extension of the batch end date if need be
-*
+* [x] Enrol and un-enrol from course batch
 
 
 
@@ -22,31 +22,54 @@ The following are a few sample functionalities that the Batch Service APIs can b
 There are various configurations that can be made via the Batch Service:
 
 * Batch type : Open (users can enrol by themselves) vs. Closed (invite-only). Default:&#x20;
-* Batch Start date and End date
+* Batch Start date and End date and Enrolment End date
 * Certificate generation for batch&#x20;
 * Criteria for earning a certificate (minimum score for the course assessment)
-*
+
+
 
 _\<Link to Git documentation on configurations for batches> _
 
-__
-
-GitHub Repo:
+#### Source Code:
 
 [https://github.com/project-sunbird/sunbird-course-service](https://github.com/project-sunbird/sunbird-course-service)
 
-References:
+#### API Documentation:
+
+[Course Batch Management APIs](http://docs.sunbird.org/latest/apis/coursebatchmanapi/)
+
+[Course Enrolment APIs](http://docs.sunbird.org/latest/apis/courseenrolmentapi/)
+
+[Course Progress APIs](http://docs.sunbird.org/latest/apis/courseprogressapi/)
+
+[Course Batch Certificates](http://docs.sunbird.org/latest/apis/coursebatchcertificateapi/)
+
+#### References:
 
 [Courses Infra - Design](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/1493041222)
 
 [Courses](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/632553473)
 
+#### Dependencies:
 
+{% tabs %}
+{% tab title="Sunbird Knowlg : Content service" %}
+Reading course metadata (content/v1/read)
+{% endtab %}
 
-**Adopters: **Diksha,&#x20;
+{% tab title="Sunbird Knowlg : Search service" %}
+Elastic search service for course metadata (composite/v3/search)
+{% endtab %}
 
-**Contributors**: EkStep,&#x20;
+{% tab title="Sunbird Lern : User&Org Service" %}
+To fetch user information for validating the Batch creator and Mentor (user/v1/read)
+{% endtab %}
+{% endtabs %}
 
-**Last Release Date**:
+**Adopters: **Diksha
 
-**Version**:
+**Contributors**: EkStep
+
+**Last Release Date**: Sep 17 2021
+
+**Version**: 4.2.0
