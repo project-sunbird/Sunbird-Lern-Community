@@ -17,4 +17,3 @@ The following table lists out the various components that make up the Sunbird _L
 | Discussion Forum UX Tool | <p><br><br></p>                                                                                                                                                                                                                                                                                                     |
 | Notification Service     | <p>This module powers the creation and sending of notifications to sets of users - this is a capability that can be leveraged by other workflows to communicate to their end users.<br><br></p>                                                                                                                     |
 
-SAMPLE USE CASES:
