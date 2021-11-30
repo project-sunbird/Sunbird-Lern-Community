@@ -6,6 +6,8 @@ It comprises of the Discussion Forum Service (APIs) which acts as a proxy layer 
 
 Watch the video on the learning series on Sunbird Discussion Forums [here](https://www.youtube.com/watch?v=OGj4qz4OBUY)
 
+{% embed url="https://www.youtube.com/watch?v=OGj4qz4OBUY" %}
+
 #### Key Features:
 
 The Discussions Forum allows users to participate in multiple discussions on the forum. Main features are:
@@ -21,7 +23,7 @@ The Discussions Forum allows users to participate in multiple discussions on the
 
 [https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/1981546511/Discussion+Forum+Deployment](https://project-sunbird.atlassian.net/wiki/spaces/SBDES/pages/1981546511/Discussion+Forum+Deployment)
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 
