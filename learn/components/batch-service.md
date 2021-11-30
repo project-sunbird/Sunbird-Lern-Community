@@ -7,7 +7,7 @@ The Batch Service comprises APIs that permit for creation of Batches of users in
 The following are a few sample functionalities that the Batch Service APIs can be used for, on the platform:
 
 * [x] Creation of a new batch for an existing/ new course, so as to track a cohort of users who are expected to take the course
-* [x] Configurations for the Batch such as - Closed batch (invite only), certificate criteria (completion of the course and minimum score of 70% for the course assessment) etc.
+* [x] Configurations for the Batch such as - End date for batch enrolment, certificate criteria (completion of the course and minimum score of 70% for the course assessment) etc.
 * [x] Extension of the batch end date if need be
 * [x] Enrol and un-enrol from course batch
 
@@ -17,7 +17,7 @@ The following are a few sample functionalities that the Batch Service APIs can b
 
 There are various configurations that can be made via the Batch Service:
 
-* Batch type : Open (users can enrol by themselves) vs. Closed (invite-only). Default:&#x20;
+* Batch type : Open (users can enrol by themselves)&#x20;
 * Batch Start date and End date and Enrolment End date
 * Certificate generation for batch&#x20;
 * Criteria for earning a certificate (minimum score for the course assessment)
@@ -60,7 +60,7 @@ To fetch user information for validating the Batch creator and Mentor (user/v1/r
 {% endtab %}
 {% endtabs %}
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 
