@@ -55,6 +55,10 @@ Reading course metadata (content/v1/read)
 Elastic search service for course metadata (composite/v3/search)
 {% endtab %}
 
+{% tab title="Sunbird Inquiry" %}
+Fetching metadata of QuestionSet.
+{% endtab %}
+
 {% tab title="Sunbird Lern : User&Org Service" %}
 To fetch user information for validating the Batch creator and Mentor (user/v1/read)
 {% endtab %}
