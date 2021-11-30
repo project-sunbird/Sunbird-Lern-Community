@@ -9,7 +9,7 @@ This micro-service helps in sending notifications to the user like SMS, email, F
 3. Has NO understanding of the executing workflow or action involved.
 4. Only the structural integrity of the payload is verified. If invalid phone number/email is passed, the service will not validate; the end result will just be a failure.
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 

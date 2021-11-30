@@ -19,7 +19,7 @@ _<mark style="color:blue;"></mark>_
 
 
 
-**Adopters: **Diksha,&#x20;
+**Adopters:** Diksha,&#x20;
 
 **Contributors**: EkStep,&#x20;
 

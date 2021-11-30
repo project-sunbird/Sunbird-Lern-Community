@@ -13,7 +13,7 @@ The following are a few sample functionalities that the Batch Service APIs can b
 
 
 
-![](<../../.gitbook/assets/image (2).png>)
+![](../../.gitbook/assets/image.png)
 
 There are various configurations that can be made via the Batch Service:
 

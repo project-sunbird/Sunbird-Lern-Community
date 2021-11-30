@@ -27,7 +27,7 @@ Watch the video on the learning series on Sunbird Groups [here](https://www.yout
 | user\_redis\_ttl             | User group list cache duration                                     | 3600          |
 | activityConfig               | To configure various types of activities and services to fetch it. |               |
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 

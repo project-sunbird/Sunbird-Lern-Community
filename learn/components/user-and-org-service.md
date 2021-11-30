@@ -6,7 +6,7 @@ This component consists of various services which support user authentication, A
 
 ![User Account Creation](../../.gitbook/assets/UserRegistration.png)
 
-### User & Org Service: <a href="user-and-org-service" id="user-and-org-service"></a>
+### User & Org Service: <a href="#user-and-org-service" id="user-and-org-service"></a>
 
 This service provides a set of APIs to manage the user, organisation and location information.&#x20;
 
@@ -32,31 +32,31 @@ This service provides a set of APIs to manage the user, organisation and locatio
 
 [GitHub - project-sunbird/sunbird-lms-service: API services for Learning management system of sunbird](https://github.com/project-sunbird/sunbird-lms-service)
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 
 **Last Release Date**: Oct 21 2021
 
-**Version : **4.3.0&#x20;
+**Version :** 4.3.0&#x20;
 
-### Authentication: <a href="authentication" id="authentication"></a>
+### Authentication: <a href="#authentication" id="authentication"></a>
 
 This service is used to validate a user while authenticating using keycloak. Keycloak uses this internally to fetch user information from the User & Org Service.
 
-**GitHub Repository: **
+**GitHub Repository:**&#x20;
 
 [GitHub - project-sunbird/sunbird-auth: Repository for sunbird authentication service](https://github.com/project-sunbird/sunbird-auth)
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 
 **Last Release Date**:&#x20;
 
-**Version : **3.8.0
+**Version :** 3.8.0
 
-### API manager util: <a href="api-manager-util" id="api-manager-util"></a>
+### API manager util: <a href="#api-manager-util" id="api-manager-util"></a>
 
 Wrapper for Kong admin util. This wrapper exposes APIs which can be used to register kong consumers and credentials. This service should not be exposed to the internet.
 
@@ -64,15 +64,15 @@ Wrapper for Kong admin util. This wrapper exposes APIs which can be used to regi
 
 [GitHub - project-sunbird/sunbird-apimanager-util: Wrapper for Kong admin util](https://github.com/project-sunbird/sunbird-apimanager-util)
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 
 **Last Release Date**: Oct 21 2021
 
-**Version : **4.3.0
+**Version :** 4.3.0
 
-### Background Jobs: <a href="background-jobs" id="background-jobs"></a>
+### Background Jobs: <a href="#background-jobs" id="background-jobs"></a>
 
 This repository is for event driven jobs user in Sunbird User & Org Service
 
@@ -80,10 +80,10 @@ This repository is for event driven jobs user in Sunbird User & Org Service
 
 [GitHub - project-sunbird/sunbird-lms-jobs: Repository for background jobs in Sunbird LMS](https://github.com/project-sunbird/sunbird-lms-jobs)
 
-**Adopters: **Diksha
+**Adopters:** Diksha
 
 **Contributors**: EkStep
 
 **Last Release Date**:&#x20;
 
-**Version : **3.7.0
+**Version :** 3.7.0
