@@ -1,20 +1,4 @@
-# Install
-
-
-
-USER LOGING AND AUTHENTICATION - DEPENDENCIES
-
-
-
-![](<../.gitbook/assets/image (2).png>)
-
-
-
-
-
-### ADDITIONAL INSTALLATION DEPENDENCIES: <a href="#authentication" id="authentication"></a>
-
-
+# Additional Installation Dependencies:
 
 ### Authentication: <a href="#authentication" id="authentication"></a>
 

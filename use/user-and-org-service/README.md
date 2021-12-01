@@ -1,33 +1,50 @@
-# Trying out Sunbird Lern
+# USER & ORG SERVICE
 
 ### Getting Started Guide
 
-This guide helps you to install [lern](https://github.com/project-sunbird/sunbird-lms-service) on developer machine. It includes instructions for installing the  Cassandra, Elasticsearch, Keycloak server in standalone mode, along with [admin-util ](https://github.com/project-sunbird/sunbird-apimanager-util)service for managing users and organizations.
+This guide helps you to install [User\&Org Service](https://github.com/project-sunbird/sunbird-lms-service) on developer machine. It includes instructions for installing the  Cassandra, Elasticsearch, Keycloak server in standalone mode, along with [admin-util ](https://github.com/project-sunbird/sunbird-apimanager-util)service for managing users and organisations.
 
-### System Requirements <a href="#system-requirements" id="system-requirements"></a>
+### How To Setup
 
-To install Sunbird Lern, ensure that your laptop or desktop has the following minimum system requirements:
+This section describes how to install and start User\&Org Service and set up the default organisation & user creation.
 
-* Operating System: Windows 7 and above, or 4.2 Mac OS X 10.0 and above/Linux
-* RAM: >4 GB
-* CPU: 4 cores, >2 GHz
+#### **Installation Configuration:**
 
-### Technical Specification <a href="#installing-a-sample-instance-of-keycloak" id="installing-a-sample-instance-of-keycloak"></a>
+User\&Org service requires few configurations to be set in properties file. Some of these properties can also be set as environment variables.
 
-| Technology    | Version |
-| ------------- | ------- |
-| JAVA          | 11      |
-| Keycloak      | 7.0.1   |
-| Elasticsearch | 6.3.0   |
-| Cassandra     | 3.11.6  |
+* Application functional configurations and dependency service configurations has to be mentioned in externalresource.properties file
 
-### Running Sunbird Lern <a href="#installing-a-sample-instance-of-keycloak" id="installing-a-sample-instance-of-keycloak"></a>
+{% embed url="https://github.com/project-sunbird/sunbird-lms-service/tree/release-4.5.0/core/platform-common/src/main/resources" %}
 
-This section describes how to install and start lern service and set up the initial organization & user.
+* Cassandra Migration in [sunbird-utils](https://github.com/project-sunbird/sunbird-utils) needs to be run before group service run to create necessary tables required.&#x20;
 
-#### Steps
+{% embed url="https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra" %}
 
-* Download sunbird lern from [here](https://github.com/project-sunbird/sunbird-lms-service)
+Database details need to be configured in dbconfig.propeties file.
+
+* Elastic search need to be setup with indices and mappings from [sunbird-utils](https://github.com/project-sunbird/sunbird-utils).
+
+{% embed url="https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-es-utils/src/main/resources" %}
+
+Pick all the indices and mappings from these folders and create index and mapping using postman.&#x20;
+
+PUT http://localhost:9200/\<indices\_name> Body : \<indices\_json\_content>
+
+PUT http://localhost:9200/\<indices\_name>/\_mapping/\_doc Body : \<mapping\_json\_content>
+
+After creating the indices and mappings, add respective org index to org\_alias (if using lms-service release-3.8.0 or above) and respective user index to user\_alias (if using lms-service release-3.7.0 or above)
+
+Elastic search details need to be configured in elasticsearch.config.properties
+
+#### External Dependencies configuration
+
+* Configure Sunbird Knowlg - Content service APIs  to read and update channel details and to do framework validation.
+* Configure Kafka setup for sending telemetry events. Sunbird Telemetry is a specification to instrument all the key events.
+* Configure Sunbird Ed - Form APIs to validate the profile information of the user.
+
+#### Steps to deploy and run
+
+* Download sunbird User\&Org Service from [here](https://github.com/project-sunbird/sunbird-lms-service)
 * Build : cd sunbird-lms-service  **mvn clean install**
 *   Run : cd sunbird-lms-service/controller &#x20;
 
@@ -48,15 +65,15 @@ This section describes how to install and start lern service and set up the init
 --header 'Accept: application/json'
 ```
 
-### System setting Setup
+#### System  setup
 
-*   Create custodian organization using below api
+*   Create custodian organisation using below API
 
     &#x20; [ ](http://docs.sunbird.org/latest/apis/orgapi/#operation/Organisation%20Create)[http://docs.sunbird.org/latest/apis/orgapi/#operation/Organisation%20Create](http://docs.sunbird.org/latest/apis/orgapi/#operation/Organisation%20Create)
-*   After successful creation of custodian org, update system setting using below apis
+*   After creation of custodian org, update the newly created org details as custodian org in application using below system settings APIs
 
     &#x20;  [http://docs.sunbird.org/latest/apis/systemsettingsapi/#operation/set](http://docs.sunbird.org/latest/apis/systemsettingsapi/#operation/set)
-* Use below request body for system setting using set api
+* Use below request body for system setting's set API
 
 ```
 // to set custodian channel
@@ -98,12 +115,6 @@ This section describes how to install and start lern service and set up the init
 }
 ```
 
-Once the system setting setup done, you can create user using below apis
+Once the setup done, create user using below APIs
 
-&#x20; [http://docs.sunbird.org/latest/apis/userapi/](http://docs.sunbird.org/latest/apis/userapi/)
-
-##
-
-####
-
-\
+{% embed url="http://docs.sunbird.org/latest/apis/userapi" %}
