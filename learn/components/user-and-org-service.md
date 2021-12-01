@@ -4,15 +4,13 @@ This component consists of various services which support user authentication, A
 
 
 
-![User Org service - Features](<../../.gitbook/assets/image (2).png>)
+![User Org service - Features](<../../.gitbook/assets/image (2) (1).png>)
 
 
 
 
 
 
-
-![User Account Creation](../../.gitbook/assets/UserRegistration.png)
 
 ### &#x20;<a href="#user-and-org-service" id="user-and-org-service"></a>
 
@@ -60,54 +58,4 @@ This service provides a set of APIs to manage the user, organisation and locatio
 
 ### &#x20;<a href="#authentication" id="authentication"></a>
 
-### ADDITIONAL DEPENDENCIES: <a href="#authentication" id="authentication"></a>
-
-
-
-### Authentication: <a href="#authentication" id="authentication"></a>
-
-This service is used to validate a user while authenticating using keycloak. Keycloak uses this internally to fetch user information from the User & Org Service.
-
-**GitHub Repository:**&#x20;
-
-[GitHub - project-sunbird/sunbird-auth: Repository for sunbird authentication service](https://github.com/project-sunbird/sunbird-auth)
-
-**Adopters:** Diksha
-
-**Contributors**: EkStep
-
-**Last Release Date**:&#x20;
-
-**Version :** 3.8.0
-
-### API manager util: <a href="#api-manager-util" id="api-manager-util"></a>
-
-Wrapper for Kong admin util. This wrapper exposes APIs which can be used to register kong consumers and credentials. This service should not be exposed to the internet.
-
-**GitHub Repository:**
-
-[GitHub - project-sunbird/sunbird-apimanager-util: Wrapper for Kong admin util](https://github.com/project-sunbird/sunbird-apimanager-util)
-
-**Adopters:** Diksha
-
-**Contributors**: EkStep
-
-**Last Release Date**: Oct 21 2021
-
-**Version :** 4.3.0
-
-### Background Jobs: <a href="#background-jobs" id="background-jobs"></a>
-
-This repository is for event driven jobs user in Sunbird User & Org Service
-
-**GitHub Repository:**
-
-[GitHub - project-sunbird/sunbird-lms-jobs: Repository for background jobs in Sunbird LMS](https://github.com/project-sunbird/sunbird-lms-jobs)
-
-**Adopters:** Diksha
-
-**Contributors**: EkStep
-
-**Last Release Date**:&#x20;
-
-**Version :** 3.7.0
+### &#x20;<a href="#authentication" id="authentication"></a>
