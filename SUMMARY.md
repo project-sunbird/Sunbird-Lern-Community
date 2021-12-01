@@ -20,7 +20,6 @@
 ## USE
 
 * [Install](use/install.md)
-  * [Install- Notification-Service](use/install/install-notification-service.md)
   * [Trying out Sunbird Lern](use/install/trying-out-sunbird-lern.md)
   * [BATCH SERVICE](use/install/batch-service/README.md)
     * [System Requirements](use/install/batch-service/system-requirements.md)
@@ -30,3 +29,7 @@
     * [System Requirements](use/install/groups/system-requirements.md)
     * [Tech Stack](use/install/groups/tech-stack.md)
     * [Technical Architecture](use/install/groups/technical-architecture.md)
+  * [NOTIFICATION SERVICE](use/install/notification-service/README.md)
+    * [System Requirements](use/install/notification-service/system-requirements.md)
+    * [Tech Stack](use/install/notification-service/tech-stack.md)
+    * [Technical Architecture](use/install/notification-service/technical-architecture.md)

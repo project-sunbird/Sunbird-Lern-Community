@@ -1,25 +1,10 @@
-# Install- Notification-Service
+# NOTIFICATION SERVICE
 
 **Repository for sunbird notification service**:&#x20;
 
 GitHub - [https://github.com/project-sunbird/sunbird-notification-service ](https://github.com/project-sunbird/sunbird-notification-service)
 
-Last Release Date: Version : release-4.3.0
 
-**Software Version:**
-
-* Java 11&#x20;
-* Play - 2.7.2
-* Kafka - 2.11&#x20;
-* Samza - 2.12&#x20;
-* Hadoop > 2.7.5
-
-**System Requirements:**
-
-Ensure that your laptop or desktop has the following minimum system requirements:&#x20;
-
-* Operating System: Windows 7 and above, or 4.2 Mac OS X 10.0 and above/Linux&#x20;
-* RAM: >8GB CPU: 2 cores, >2 GHz
 
 **Deployment steps:**&#x20;
 
@@ -61,8 +46,6 @@ There is no dependency when sending notifications in sync mode. But while sendin
 
 Repository for sunbird jobs: [https://github.com/project-sunbird/sunbird-lms-jobs ](https://github.com/project-sunbird/sunbird-lms-jobs)
 
-Last Release Date: Version : release-3.7.0&#x20;
-
 **Steps for running notification samza job:**
 
 The following wiki page contains steps to run notification samza job.
@@ -70,8 +53,4 @@ The following wiki page contains steps to run notification samza job.
 {% embed url="https://project-sunbird.atlassian.net/wiki/spaces/UM/pages/1087307787/How+to+Set+up+kafka+hadoop+samza+in+local" %}
 notification-job
 {% endembed %}
-
-**Architectural Diagram:**
-
-![Notification-service](<../../.gitbook/assets/sunbird-notification (1).png>)
 
