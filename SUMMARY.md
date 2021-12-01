@@ -24,6 +24,7 @@
 ## USE
 
 * [Install](use/install.md)
+  * [Trying out Sunbird Lern](use/install/trying-out-sunbird-lern.md)
   * [BATCH SERVICE](use/install/batch-service/README.md)
     * [System Requirements](use/install/batch-service/system-requirements.md)
     * [Tech Stack](use/install/batch-service/tech-stack.md)
