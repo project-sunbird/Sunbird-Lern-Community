@@ -9,8 +9,8 @@
   * [USER & ORG SERVICE](learn/components/user-and-org-service.md)
   * [BATCH SERVICE](learn/components/batch-service.md)
   * [GROUPS](learn/components/groups.md)
-  * [DISCUSISON FORUM](learn/components/discusison-forum.md)
   * [NOTIFICATION SERVICE](learn/components/notification-service.md)
+  * [DISCUSISON FORUM](learn/components/discusison-forum.md)
 * [Dependencies](learn/dependencies.md)
 
 ## ENGAGE
@@ -19,4 +19,8 @@
 
 ## USE
 
-* [Install](use/install.md)
+* [Install](use/install/README.md)
+  * [BATCH SERVICE](use/install/batch-service/README.md)
+    * [System Requirements](use/install/batch-service/system-requirements.md)
+    * [Tech Stack](use/install/batch-service/tech-stack.md)
+    * [Technical Architecture](use/install/batch-service/technical-architecture.md)
