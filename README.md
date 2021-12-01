@@ -15,7 +15,7 @@ This building block consists of several components, each of which provides speci
 
 __
 
-_<mark style="color:blue;"></mark>_
+![Sunbird Lern Building blocks](<.gitbook/assets/image (1).png>)
 
 
 
