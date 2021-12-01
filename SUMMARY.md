@@ -8,7 +8,11 @@
 * [Components](learn/components/README.md)
   * [USER & ORG SERVICE](learn/components/user-and-org-service.md)
   * [BATCH SERVICE](learn/components/batch-service.md)
-  * [GROUPS](learn/components/groups.md)
+  * [Page 1](learn/components/page-1.md)
+  * [GROUPS](learn/components/groups/README.md)
+    * [Architecture](learn/components/groups/architecture.md)
+    * [How To Setup](learn/components/groups/how-to-setup.md)
+  * [Page 1](learn/components/page-1-1.md)
   * [NOTIFICATION SERVICE](learn/components/notification-service.md)
   * [DISCUSISON FORUM](learn/components/discusison-forum.md)
 * [Dependencies](learn/dependencies.md)
@@ -19,7 +23,7 @@
 
 ## USE
 
-* [Install](use/install/README.md)
+* [Install](use/install.md)
   * [BATCH SERVICE](use/install/batch-service/README.md)
     * [System Requirements](use/install/batch-service/system-requirements.md)
     * [Tech Stack](use/install/batch-service/tech-stack.md)
