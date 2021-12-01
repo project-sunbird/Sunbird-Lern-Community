@@ -16,7 +16,7 @@ User\&Org service requires few configurations to be set in properties file. Some
 
 {% embed url="https://github.com/project-sunbird/sunbird-lms-service/tree/release-4.5.0/core/platform-common/src/main/resources" %}
 
-* Cassandra Migration in [sunbird-utils](https://github.com/project-sunbird/sunbird-utils) needs to be run before group service run to create necessary tables required.&#x20;
+* Cassandra Migration in [sunbird-utils](https://github.com/project-sunbird/sunbird-utils) needs to be run before user\&org service run to create necessary tables required.&#x20;
 
 {% embed url="https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra" %}
 
