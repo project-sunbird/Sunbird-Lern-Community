@@ -6,6 +6,8 @@ _<mark style="color:blue;">Lern</mark>_ <mark style="color:blue;"></mark><mark s
 
 \> Bulk-create a set of user accounts for a set of `participants` in a workshop that `uses` an online platform/ Sunbird
 
+\> Allow for `generation of and issuing of certificates` to `participants` of a course in a workshop that uses an online platform/ Sunbird
+
 `> Assign rights` (say content creation rights) to an identified set of `users` for a content creation workshop
 
 \> Assign a group of `learners` to a batch and allow them `take a course` within  specified start-end dates.
