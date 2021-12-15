@@ -1,6 +1,8 @@
 # Use Cases
 
-_<mark style="color:blue;">Lern</mark>_ <mark style="color:blue;">can be leveraged to:</mark>
+_<mark style="color:blue;">Lern</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">can be leveraged to:</mark>
+
+\> Integration of Sunbird to an existing system to allow valid `users` with accounts on the system to `login` via single sign-on to Sunbird
 
 \> Bulk-create a set of user accounts for a set of `participants` in a workshop that `uses` an online platform/ Sunbird
 
