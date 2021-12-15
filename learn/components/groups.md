@@ -12,8 +12,9 @@ Watch the video on the learning series on Sunbird Groups [here](https://www.yout
 2. Add/remove members - Members can be either user or managed user. Default configuration for maximum number of members is 150.
 3. Groups can be associated with activities - Activity is a specific interest associated with the group. Example: Content, Discussion, Announcement. Upto 20 activities can be added in a group as per the default configuration.
 4. Activities that can be added to the group are configured using activityConfig.json. This configuration enables to connect to various services to fetch activities.
-5. Group related in-app notifications are enabled with the help of Sunbird Lern - Notification service.
-6. Redis cache support can be enabled for caching groups list and the group details using configuration. For a user group list, the default caching time is 3600 seconds and that of each group details is 86400 seconds.
+5. Group admin can monitor the progress of member's trackable collection that is assigned through a dashboard
+6. Group related in-app notifications are enabled with the help of Sunbird Lern - Notification service.
+7. Redis cache support can be enabled for caching groups list and the group details using configuration. For a user group list, the default caching time is 3600 seconds and that of each group details is 86400 seconds.
 
 #### Configuration Reference:
 
