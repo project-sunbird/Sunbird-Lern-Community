@@ -12,7 +12,7 @@ _<mark style="color:blue;">Lern</mark>_ <mark style="color:blue;"></mark><mark s
 
 \> Assign a group of `learners` to a batch and allow them `take a course` within  specified start-end dates.
 
-\> Enable a discussion forum for a course so that `participants` can `collaborate`
+\> Enable a discussion forum for a course or a Group so that `participants` can `collaborate`
 
 \> Create a `group of users`, assign learning material and quizzes to them, and `track their progress` against these activities.
 
