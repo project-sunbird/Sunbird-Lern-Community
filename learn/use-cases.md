@@ -14,7 +14,7 @@ _<mark style="color:blue;">Lern</mark>_ <mark style="color:blue;"></mark><mark s
 
 \> Enable a discussion forum for a Batch of users taking a course or a Group of users so that `participants` can `collaborate`
 
-\> Create a `group of users`, assign learning material and quizzes to them, and `track their progress` against these activities.
+\> Create a `group of users`, assign learning material, courses and quizzes to them, and `track their progress or scores` against Courses.
 
 \> Send `notifications to a set of users` about new content / activities that have been added on the platform&#x20;
 
