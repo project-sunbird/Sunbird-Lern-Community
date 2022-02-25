@@ -16,6 +16,7 @@
 ## ENGAGE
 
 * [Discuss](engage/discuss.md)
+* [Discuss](https://github.com/Sunbird-Obsrv/Community/discussions)
 
 ## USE
 
