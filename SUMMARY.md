@@ -1,17 +1,19 @@
 # Table of contents
 
-* [Sunbird Lern](README.md)
+* [Overview](README.md)
 
 ## LEARN
 
-* [Use Cases](learn/use-cases.md)
-* [Components](learn/components/README.md)
-  * [USER & ORG SERVICE](learn/components/user-and-org-service.md)
-  * [BATCH SERVICE](learn/components/batch-service.md)
-  * [GROUPS](learn/components/groups.md)
-  * [NOTIFICATION SERVICE](learn/components/notification-service.md)
-  * [DISCUSSION FORUM](learn/components/discussion-forum.md)
+* [Functional Capabilities](learn/functional-capabilities.md)
+* [Product & Developer Guide](learn/product-and-developer-guide/README.md)
+  * [USER & ORG SERVICE](learn/product-and-developer-guide/user-and-org-service.md)
+  * [BATCH SERVICE](learn/product-and-developer-guide/batch-service.md)
+  * [GROUPS](learn/product-and-developer-guide/groups.md)
+  * [NOTIFICATION SERVICE](learn/product-and-developer-guide/notification-service.md)
+  * [DISCUSSION FORUM](learn/product-and-developer-guide/discussion-forum.md)
 * [Dependencies](learn/dependencies.md)
+* [Product Roadmap](learn/product-roadmap.md)
+* [Release Notes](learn/release-notes.md)
 
 ## ENGAGE
 
@@ -19,6 +21,7 @@
 
 ## USE
 
+* [Installation Guide](use/installation-guide.md)
 * [USER & ORG SERVICE](use/user-and-org-service/README.md)
   * [System Requirements](use/user-and-org-service/system-requirements.md)
   * [Tech Stack](use/user-and-org-service/tech-stack.md)
