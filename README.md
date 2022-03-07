@@ -26,7 +26,7 @@ Sunbird Lern can be utilized to enable learning solutions that necessitate track
 
 ****
 
-**Key Capabilities that Sunbird Lern can enable:**
+### **Key Capabilities that Sunbird Lern can enable:**
 
 * Launch Courses: Create and manage course batches, review user progress and performance on assessments, and issue rule-based certificate
 * User Engagement: Engage users through groups and discussion forums, events, and notifications.
