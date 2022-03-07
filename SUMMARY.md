@@ -15,9 +15,9 @@
 * [Product Roadmap](learn/product-roadmap.md)
 * [Release Notes](learn/release-notes.md)
 
-## ENGAGE
+## Engage
 
-* [Discuss](https://github.com/Sunbird-Obsrv/Community/discussions)
+* [Discuss](https://github.com/Sunbird-Lern/Community)
 
 ## USE
 
