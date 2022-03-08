@@ -17,7 +17,7 @@
 
 ## Engage
 
-* [Discuss](https://github.com/Sunbird-Lern/Community)
+* [Discuss](https://github.com/Sunbird-Lern/Community/discussions)
 
 ## USE
 
