@@ -2,7 +2,7 @@
 
 _<mark style="color:blue;"></mark>_
 
-_<mark style="color:orange;"></mark>_
+<mark style="color:orange;">< Lead-in from Overview></mark>
 
 ### <mark style="color:orange;">**Key Capabilities that Sunbird Lern can enable:**</mark>
 
@@ -13,8 +13,6 @@ _<mark style="color:orange;"></mark>_
 * <mark style="color:orange;">Notifications for users: Send notifications to users to inform them about programs deadlines or for system level activity such as generation of a certificate or creation of an account.</mark>
 
 <mark style="color:green;">The following are the details of the functional capabilities that are enabled via Sunbird Lern:</mark>
-
-<mark style="color:green;">Enable batches of students to take courses on the platform:</mark>
 
 *   <mark style="color:green;">Enable batches of students to take courses on the platform: Create and manage course batches, review user progress and performance on assessments, issue rule based certificates</mark>&#x20;
 
