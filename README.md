@@ -38,15 +38,5 @@ __
 
 
 
-**Adopters:** Diksha,&#x20;
-
-**Contributors**: EkStep,&#x20;
-
-**Last Release Date**:
-
-**Version**:
-
-
-
 
 
