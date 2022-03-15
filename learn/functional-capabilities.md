@@ -14,28 +14,39 @@ _<mark style="color:blue;"></mark>_
 
 <mark style="color:green;">The following are the details of the functional capabilities that are enabled via Sunbird Lern:</mark>
 
-*   <mark style="color:green;">Enable batches of students to take courses on the platform: Create and manage course batches, review user progress and performance on assessments, issue rule based certificates</mark>&#x20;
+*   <mark style="color:green;">Enable batches of students to take courses on the platform: Create and manage a course batch - that allows for a cohort of users to take the course within a specified time frame, review user course progress or assessment performance, issue rule based certificates for course completion, merit scores etc.</mark>&#x20;
 
-    <mark style="color:green;">The Batch Service component of the Lern Building block is what is used to power these capabilities</mark>&#x20;
+    <mark style="color:green;">The</mark> <mark style="color:green;"></mark><mark style="color:green;">`Batch Service`</mark> <mark style="color:green;"></mark><mark style="color:green;">component of the Lern Building block is used to power these capabilities within Sunbird Lern.</mark>&#x20;
 
 <mark style="color:green;"></mark>
 
 *   <mark style="color:green;">Allow users on the platform to collaborate: Sunbird Lern components can be configured to give users on the platform collaboration capabilities. These components include the Groups Service as well as Discussion Forums. The functionalities enabled by the Groups component includes the ability for users to create a Group on the platform, add/ remove users from the group, as well as assign activities (content, assessments etc) for the users in the group to undertake. The Group creator is also able to track how much of the activities the users have completed. A Group can also have a Dicussion Forum attached to it, which allows a user to start or contribute to discussions on relevant topics. Such capabilities allow for users to learn together as a cohort, as well as engage in useful collaborative activities to further their learning.</mark>
 
-    <mark style="color:green;"></mark>
+    <mark style="color:green;">The components used to enable collaboration include</mark> <mark style="color:green;"></mark><mark style="color:green;">`Groups`</mark> <mark style="color:green;"></mark><mark style="color:green;">as well as</mark> <mark style="color:green;"></mark><mark style="color:green;">`Discussion Forum`</mark><mark style="color:green;">.</mark>
 
 <mark style="color:green;"></mark>
 
-* <mark style="color:green;">Enable users to create accounts to save their platform preferences and and get access to features such as Courses and Learner passbook</mark>
+* <mark style="color:green;">Enable users to create accounts to save their platform preferences, access relevant content basedon their preferences etc. Users with accounts on the system who login also get access to richer platform features such as Courses and Learner passbook. These capabilities are enabled using the</mark> <mark style="color:green;"></mark><mark style="color:green;">`User & Org Service`</mark> <mark style="color:green;"></mark><mark style="color:green;">component of Sunbird Lern</mark>
+
+
+
+<mark style="color:green;"></mark>
+
 * <mark style="color:green;">Platform administrators can be granted capabilities to manage user roles on the platform, as well as manage platform master data (eg. Location data, Framework values etc.)</mark>
-* <mark style="color:green;">Configure the platform to allow for user logins via various mechanisms including username/ password, Google login or single sign-on with other approved systems:</mark>
+
+<mark style="color:green;"></mark>
+
+* <mark style="color:green;">Configure the platform to allow for user logins via various mechanisms including username/ password, Google login or single sign-on with other approved systems</mark>
+
+<mark style="color:green;"></mark>
+
 * &#x20;<mark style="color:green;">Configure the platform to be able to send notifications to users on events of choosing - these could be user driven or system driven events.</mark>
 
 <mark style="color:green;"></mark>
 
 _<mark style="color:blue;"></mark>_
 
-_<mark style="color:blue;">Lern</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">can be leveraged to:</mark>
+A few sample use-cases where Sunbir Lern has been leveraged to effectively implement desired functionality include:
 
 \> Integration of Sunbird to an existing system to allow valid `users` with accounts on the system to `login` via single sign-on to Sunbird
 
