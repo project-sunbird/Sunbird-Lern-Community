@@ -13,7 +13,6 @@
   * [DISCUSSION FORUM](learn/product-and-developer-guide/discussion-forum.md)
 * [Dependencies](learn/dependencies.md)
 * [Product Roadmap](learn/product-roadmap.md)
-* [Release Notes](learn/release-notes.md)
 
 ## Engage
 
@@ -21,6 +20,7 @@
 
 ## USE
 
+* [Release Notes](use/release-notes.md)
 * [Installation Guide](use/installation-guide.md)
 * [USER & ORG SERVICE](use/user-and-org-service/README.md)
   * [System Requirements](use/user-and-org-service/system-requirements.md)
