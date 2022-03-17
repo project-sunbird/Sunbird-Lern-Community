@@ -9,8 +9,8 @@
   * [USER & ORG SERVICE](learn/product-and-developer-guide/user-and-org-service.md)
   * [BATCH SERVICE](learn/product-and-developer-guide/batch-service.md)
   * [GROUPS](learn/product-and-developer-guide/groups.md)
-  * [NOTIFICATION SERVICE](learn/product-and-developer-guide/notification-service.md)
   * [DISCUSSION FORUM](learn/product-and-developer-guide/discussion-forum.md)
+  * [NOTIFICATION SERVICE](learn/product-and-developer-guide/notification-service.md)
 * [Dependencies](learn/dependencies.md)
 * [Product Roadmap](learn/product-roadmap.md)
 

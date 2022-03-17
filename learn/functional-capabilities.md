@@ -12,7 +12,16 @@ _<mark style="color:blue;"></mark>_
 * <mark style="color:orange;">Login & Authentication: Enable login via various methods including userID/ password as well as SSO via Google or similar systems</mark>
 * <mark style="color:orange;">Notifications for users: Send notifications to users to inform them about programs deadlines or for system level activity such as generation of a certificate or creation of an account.</mark>
 
-<mark style="color:green;">The following are the details of the functional capabilities that are enabled via Sunbird Lern:</mark>
+<mark style="color:green;">The following are various functional capabilities that can be enabled using Sunbird Lern. These capabilities in turn are powered by different Sunbird Lern components - which can be configured by an adopter based on their specific needs.</mark>&#x20;
+
+<mark style="color:green;"></mark>
+
+* <mark style="color:green;">User account creation and management, user login as well as platform administration capabilities - these are powered by the</mark> <mark style="color:green;"></mark><mark style="color:green;">`User and Org Service`</mark> <mark style="color:green;"></mark><mark style="color:green;">component of Sunbird Lern</mark>
+  * <mark style="color:green;">Enable users to create accounts to save their platform preferences, access relevant content basedon their preferences etc. Users with accounts on the system who login also get access to richer platform features such as Courses and Learner passbook.</mark>&#x20;
+  * <mark style="color:green;">Platform administrators can be granted capabilities to manage user roles on the platform, as well as manage platform master data (eg. Location data, Framework values etc.)</mark>
+  * <mark style="color:green;">Configure the platform to allow for user logins via various mechanisms including username/ password, Google login or single sign-on with other approved systems</mark>
+
+<mark style="color:green;"></mark>
 
 *   <mark style="color:green;">Enable batches of students to take courses on the platform: Create and manage a course batch - that allows for a cohort of users to take the course within a specified time frame, review user course progress or assessment performance, issue rule based certificates for course completion, merit scores etc.</mark>&#x20;
 
@@ -26,21 +35,7 @@ _<mark style="color:blue;"></mark>_
 
 <mark style="color:green;"></mark>
 
-* <mark style="color:green;">Enable users to create accounts to save their platform preferences, access relevant content basedon their preferences etc. Users with accounts on the system who login also get access to richer platform features such as Courses and Learner passbook. These capabilities are enabled using the</mark> <mark style="color:green;"></mark><mark style="color:green;">`User & Org Service`</mark> <mark style="color:green;"></mark><mark style="color:green;">component of Sunbird Lern</mark>
-
-
-
-<mark style="color:green;"></mark>
-
-* <mark style="color:green;">Platform administrators can be granted capabilities to manage user roles on the platform, as well as manage platform master data (eg. Location data, Framework values etc.)</mark>
-
-<mark style="color:green;"></mark>
-
-* <mark style="color:green;">Configure the platform to allow for user logins via various mechanisms including username/ password, Google login or single sign-on with other approved systems</mark>
-
-<mark style="color:green;"></mark>
-
-* &#x20;<mark style="color:green;">Configure the platform to be able to send notifications to users on events of choosing - these could be user driven or system driven events.</mark>
+* &#x20;<mark style="color:green;">Configure the platform to be able to send notifications to users on events of choosing - these could be user driven or system driven events. This capability is enabled via the</mark> <mark style="color:green;"></mark><mark style="color:green;">`Notification service`</mark> <mark style="color:green;"></mark><mark style="color:green;">component.</mark>
 
 <mark style="color:green;"></mark>
 
