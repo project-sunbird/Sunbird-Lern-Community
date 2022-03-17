@@ -2,16 +2,6 @@
 
 _<mark style="color:blue;"></mark>_
 
-<mark style="color:orange;">< Lead-in from Overview></mark>
-
-### <mark style="color:orange;">**Key Capabilities that Sunbird Lern can enable:**</mark>
-
-* <mark style="color:orange;">Launch Courses: Create and manage course batches, review user progress and performance on assessments, and issue rule-based certificate</mark>
-* <mark style="color:orange;">User Engagement: Engage users through groups and discussion forums, events, and notifications.</mark>
-* <mark style="color:orange;">User Account Creation & Administration Capabilities: New user account creation, user login/ authentication and user profile with passbook. Assigning and management of user roles. Management of location and other master data</mark>
-* <mark style="color:orange;">Login & Authentication: Enable login via various methods including userID/ password as well as SSO via Google or similar systems</mark>
-* <mark style="color:orange;">Notifications for users: Send notifications to users to inform them about programs deadlines or for system level activity such as generation of a certificate or creation of an account.</mark>
-
 <mark style="color:green;">The following are various functional capabilities that can be enabled using Sunbird Lern. These capabilities in turn are powered by different Sunbird Lern components - which can be configured by an adopter based on their specific needs.</mark>&#x20;
 
 <mark style="color:green;"></mark>
@@ -39,26 +29,6 @@ _<mark style="color:blue;"></mark>_
 
 <mark style="color:green;"></mark>
 
-_<mark style="color:blue;"></mark>_
-
-A few sample use-cases where Sunbir Lern has been leveraged to effectively implement desired functionality include:
-
-\> Integration of Sunbird to an existing system to allow valid `users` with accounts on the system to `login` via single sign-on to Sunbird
-
-\> Bulk-create a set of user accounts for a set of `participants` in a workshop that `uses` an online platform/ Sunbird
-
-\> Allow for `generation of and issuing of certificates` to `participants` of a course in a workshop that uses an online platform/ Sunbird
-
-`> Assign rights` (say content creation rights) to an identified set of `users` for a content creation workshop
-
-\> Assign a group of `learners` to a batch and allow them `take a course` within  specified start-end dates.
-
-\> Enable a discussion forum for a Batch of users taking a course or a Group of users so that `participants` can `collaborate`
-
-\> Create a `group of users`, assign learning material, courses and quizzes to them, and `track their progress or scores` against Courses.
-
-\> Send `notifications to a set of users` about new content / activities that have been added on the platform&#x20;
 
 
-
-Various components of _Lern_ permit for different configurations, allowing the system to enable various workflows as required. Learn about the configurations that each component allows for, on the page for the specific component, as enumerated on the left panel.
+<mark style="color:green;">Various components of Lern permit for different configurations, allowing the system to enable different workflows based on specific requirements. Learn more about the configurations that each component allows for, on the pages for each of the specific components.</mark>
