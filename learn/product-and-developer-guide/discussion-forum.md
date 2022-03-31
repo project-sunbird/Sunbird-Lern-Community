@@ -1,4 +1,4 @@
-# DISCUSISON FORUM
+# DISCUSSION FORUM
 
 A better community platform for the modern web. User can ask their queries related to the specific context. Community group will help/suggest to solve the user queries. Based on most likes users can take the suggestions shared by the community.
 

@@ -11,7 +11,7 @@ The following are a few sample functionalities that the Batch Service APIs can b
 * [x] Extension of the batch end date if need be
 * [x] Enrol and un-enrol from course batch
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (2).png>)
 
 There are various configurations that can be made via the Batch Service:
 
