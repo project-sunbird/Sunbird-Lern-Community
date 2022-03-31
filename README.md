@@ -33,5 +33,8 @@ __
 
 
 
+Sunbird Lern is leveraged in DIKSHA - Digital Infrastructure for Knowledge Sharing, the national school education platform of India. &#x20;
+
+_**Contributors:**_ EkStep\
 
 
