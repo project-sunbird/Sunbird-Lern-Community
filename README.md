@@ -6,7 +6,7 @@ Sunbird Lern is primarily a set of microservices along with some reference UX wi
 
 
 
-Sunbird Lern can be utilized to enable learning solutions that necessitate tracking of user progress and scores, issuance of certificates based on some criteria as well as to form defined Groups of users, or permit collaboration between them via forums. A few examples of solutions that can be assembled with Lern include:&#x20;
+A few examples of solutions that can be assembled with Lern include:&#x20;
 
 * (a) Integration of Sunbird to an existing system to allow valid users with accounts on the system to login via single sign-on to Sunbird&#x20;
 * (b) Bulk-create a set of user accounts for a set of participants in a workshop that uses an online platform/ Sunbird&#x20;
@@ -19,7 +19,9 @@ Sunbird Lern can be utilized to enable learning solutions that necessitate track
 
     ****
 
+Sunbird Lern can be utilized to enable learning solutions that necessitate tracking of user progress and scores, issuance of certificates based on some criteria as well as to form defined Groups of users, or permit collaboration between them via forums.&#x20;
 
+### ****
 
 ### **Key Capabilities that Sunbird Lern can enable:**
 
