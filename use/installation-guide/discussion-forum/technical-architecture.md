@@ -2,4 +2,4 @@
 
 #### Discussion Forum Architecture Diagram
 
-![](../../.gitbook/assets/discussionforum.png)
+![](../../../.gitbook/assets/discussionforum.png)
