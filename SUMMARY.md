@@ -56,7 +56,7 @@
 ## USE
 
 * [Release Notes](use/release-notes.md)
-* [Installation Guide](use/installation-guide.md)
+* [Installation Guide](use/installation-guide/README.md)
   * [DISCUSSION FORUM](use/installation-guide/discussion-forum/README.md)
     * [System Requirements](use/installation-guide/discussion-forum/system-requirements.md)
     * [Tech Stack](use/installation-guide/discussion-forum/tech-stack.md)
