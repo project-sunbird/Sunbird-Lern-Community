@@ -6,7 +6,10 @@
 
 * [Functional Capabilities](learn/functional-capabilities.md)
 * [Product & Developer Guide](learn/product-and-developer-guide/README.md)
-  * [USER & ORG SERVICE](learn/product-and-developer-guide/user-and-org-service.md)
+  * [USER & ORG SERVICE](learn/product-and-developer-guide/user-and-org-service/README.md)
+    * [Feature/Core capabilities](learn/product-and-developer-guide/user-and-org-service/feature-core-capabilities.md)
+    * [Service](learn/product-and-developer-guide/user-and-org-service/service.md)
+    * [Source Code](learn/product-and-developer-guide/user-and-org-service/source-code.md)
   * [BATCH SERVICE](learn/product-and-developer-guide/batch-service/README.md)
     * [Tech Design](learn/product-and-developer-guide/batch-service/tech-design.md)
     * [Feature/Core Capabilities](learn/product-and-developer-guide/batch-service/feature-core-capabilities.md)
@@ -53,7 +56,7 @@
 ## USE
 
 * [Release Notes](use/release-notes.md)
-* [Installation Guide](use/installation-guide/README.md)
+* [Installation Guide](use/installation-guide.md)
   * [DISCUSSION FORUM](use/installation-guide/discussion-forum/README.md)
     * [System Requirements](use/installation-guide/discussion-forum/system-requirements.md)
     * [Tech Stack](use/installation-guide/discussion-forum/tech-stack.md)

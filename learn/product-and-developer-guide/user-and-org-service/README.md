@@ -2,7 +2,7 @@
 
 This component consists of various services which support user authentication, API management and token generation, Samza jobs for asynchronous notification along with user and organisation management.
 
-![User Org service - Features](<../../.gitbook/assets/image (2) (1) (1).png>)
+![User Org service - Features](<../../../.gitbook/assets/image (2) (1) (1).png>)
 
 **Key Features:**
 
