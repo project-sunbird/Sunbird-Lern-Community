@@ -1,10 +1,10 @@
 # Product & Developer Guide
 
-<mark style="color:green;">Sunbird Lern enables a host of capabilities that have been utilised by various adopters to create program specific workflows for their users. For instance,</mark> [<mark style="color:green;">Shikshalokam</mark>](https://shikshalokam.org) <mark style="color:green;">has created an education leadership platform to train leaders in education - using componets from Sunbird Lern such as the User & Org service as well as the Batch Service. The flexibility of being able to choose the components that are required for the adopter, and the ability to configure them at will (instead of having to build ground up) is what makes it easier to deploy solutions using the Sunbird suite.</mark>
+Sunbird Lern enables a host of capabilities that have been utilised by various adopters to create program specific workflows for their users. For instance, [Shikshalokam](https://shikshalokam.org) has created an education leadership platform to train leaders in education - using componets from Sunbird Lern such as the User & Org service as well as the Batch Service. The flexibility of being able to choose the components that are required for the adopter, and the ability to configure them at will (instead of having to build ground up) is what makes it easier to deploy solutions using the Sunbird suite.
 
 &#x20;   <mark style="color:green;"></mark>   &#x20;
 
-<mark style="color:green;">The following table lists out the various components that make up the Sunbird Lern building block, with a brief description of what each module pertains to. This can be used to get an understanding of what capabilities this specific building block can be used to enable. Further descriptions of each component, the configurations available within etc. are detailed in the pages specific to the component.</mark>&#x20;
+The following table lists out the various components that make up the Sunbird Lern building block, with a brief description of what each module pertains to. This can be used to get an understanding of what capabilities this specific building block can be used to enable. Further descriptions of each component, the configurations available within etc. are detailed in the pages specific to the component.&#x20;
 
 <mark style="color:green;"></mark>
 
