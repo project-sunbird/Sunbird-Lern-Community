@@ -12,7 +12,7 @@ In the Sunbird use case, any of the learning sections can have a discussion foru
 
 **Prerequisite**:
 
-1. [Nodebb](../../../../use/installation-guide/discussion-forum/installation-guide/nodebb-setup.md#nodebb) Local setup
+1. [Nodebb](../../../../use/developer-installation/discussion-forum/installation-guide/nodebb-setup.md#nodebb) Local setup
 2. [Discussion Middleware](discussion-middleware.md) Local setup
 
 ### How to setup Discussions-UI&#x20;
