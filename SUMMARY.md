@@ -63,7 +63,7 @@
   * [DISCUSSION FORUM](use/installation-guide/discussion-forum/README.md)
     * [System Requirements](use/installation-guide/discussion-forum/system-requirements.md)
     * [Tech Stack](use/installation-guide/discussion-forum/tech-stack.md)
-    * [Installation Guide](use/installation-guide/discussion-forum/installation-guide/README.md)
+    * [Installation Guide](use/installation-guide/discussion-forum/installation-guide.md)
       * [Nodebb setup](use/installation-guide/discussion-forum/installation-guide/nodebb-setup.md)
       * [Discussion Middleware Setup](use/installation-guide/discussion-forum/installation-guide/discussion-middleware-setup.md)
     * [Deployment Diagram](use/installation-guide/discussion-forum/deployment-diagram.md)
