@@ -25,10 +25,9 @@ Sunbird Lern can be utilized to enable learning solutions that necessitate track
 
 ### **Key Capabilities that Sunbird Lern can enable:**
 
-* Launch Courses: Create and manage course batches, review user progress and performance on assessments, and issue rule-based certificate
-* User Engagement: Engage users through groups and discussion forums, events, and notifications.
-* User Account Creation & Administration Capabilities: New user account creation, user login/ authentication and user profile with passbook. Assigning and management of user roles. Management of location and other master data
-* Login & Authentication: Enable login via various methods including userID/ password as well as SSO via Google or similar systems
+* User Account Creation & Administration Capabilities: New user account creation, user login/ authentication and user profile with passbook. Assigning and management of user roles. Management of location and other master data. Enable login via various methods including userID/ password as well as SSO via Google or similar systems
+* Launch Courses via Batches: Create and manage course batches, review user progress and performance on assessments, and issue rule-based certificate
+* Engagement & Collaboration: Engage users through groups and discussion forums, events, and notifications.
 * Notifications for users: Send notifications to users to inform them about programs deadlines or for system level activity such as generation of a certificate or creation of an account.
 
 __
