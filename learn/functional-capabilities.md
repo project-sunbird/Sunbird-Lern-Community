@@ -9,13 +9,13 @@ These functional capabilities are powered by different Sunbird Lern components -
 <mark style="color:green;"></mark>
 
 * **User account creation and management, user login as well as platform administration capabilities** - these are powered by the [`User and Org Service`](product-and-developer-guide/user-and-org-service/) component of Sunbird Lern
-  * Enable users to create accounts to save their platform preferences, access relevant content basedon their preferences etc. Users with accounts on the system who login also get access to richer platform features such as Courses and Learner passbook.&#x20;
+  * Enable users to create accounts to save their platform preferences, access relevant content based on their preferences etc. Users with accounts on the system who login also get access to richer platform features such as Courses and Learner passbook.&#x20;
   * Platform administrators can be granted capabilities to manage user roles on the platform, as well as manage platform master data (eg. Location data, Framework values etc.)
   * Configure the platform to allow for user logins via various mechanisms including username/ password, Google login or single sign-on with other approved systems
 
 <mark style="color:green;"></mark>
 
-*   **Enable batches of students to take courses on the platform**: Create and manage a course batch - that allows for a cohort of users to take the course within a specified time frame, review user course progress or assessment performance, issue rule based certificates for course completion, merit scores etc.&#x20;
+*   **Enable batches of students to take courses on the platform**: Create and manage a course batch - this allows for a cohort of users to take the course within a specified time frame, review user course progress or assessment performance, issue rule based certificates for course completion, merit scores etc.&#x20;
 
     The [`Batch Service`](product-and-developer-guide/batch-service/) component of the Lern Building block is used to power these capabilities within Sunbird Lern.&#x20;
 
