@@ -58,7 +58,8 @@
 
 ## USE
 
-* [Release Notes](use/release-notes.md)
+* [Overview](use/overview.md)
+* [Server Installation](use/server-installation.md)
 * [Installation Guide](use/installation-guide/README.md)
   * [DISCUSSION FORUM](use/installation-guide/discussion-forum/README.md)
     * [System Requirements](use/installation-guide/discussion-forum/system-requirements.md)
