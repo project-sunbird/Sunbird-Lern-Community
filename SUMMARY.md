@@ -100,3 +100,6 @@
     * [Installation Guide](use/developer-installation/notification-service/installation-guide.md)
     * [Deployment Diagram](use/developer-installation/notification-service/deployment-diagram.md)
     * [Source Code](use/developer-installation/notification-service/source-code.md)
+* [Release Notes](use/release-notes/README.md)
+  * [release-4.7.0 (Live)](use/release-notes/release-4.7.0-live.md)
+  * [release-4.8.0 (Upcoming)](use/release-notes/release-4.8.0-upcoming.md)
