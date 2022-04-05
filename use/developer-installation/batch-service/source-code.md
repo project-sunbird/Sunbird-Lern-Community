@@ -35,3 +35,7 @@ Report Jobs : [https://github.com/Sunbird-Ed/sunbird-data-products](https://gith
 1. Progress Exhaust
 2. User Info Exhaust
 3. Response Exhaust
+
+ES Mappings
+
+[https://github.com/project-sunbird/sunbird-devops/tree/master/ansible/roles/es-mapping](https://github.com/project-sunbird/sunbird-devops/tree/master/ansible/roles/es-mapping)

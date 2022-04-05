@@ -13,3 +13,8 @@ Environment and API Configurations&#x20;
 Database setup:
 
 [https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra](https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra)
+
+ES Mappings:
+
+[https://github.com/project-sunbird/sunbird-devops/tree/master/ansible/roles/es-mapping](https://github.com/project-sunbird/sunbird-devops/tree/master/ansible/roles/es-mapping)
+
