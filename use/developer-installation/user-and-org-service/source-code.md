@@ -2,12 +2,30 @@
 
 **Source Code:**
 
-[GitHub - project-sunbird/sunbird-lms-service: API services for Learning management system of sunbird](https://github.com/project-sunbird/sunbird-lms-service)
+UserOrg Service&#x20;
 
-**Adopters:** Diksha
+{% embed url="https://github.com/project-sunbird/sunbird-lms-service" %}
 
-**Contributors**: EkStep
+Authentication - Keycloak SPI
 
-**Last Release Date**: Oct 21 2021
+{% embed url="https://github.com/project-sunbird/sunbird-auth" %}
 
-**Version :** 4.3.0&#x20;
+API Manager Util
+
+{% embed url="https://github.com/project-sunbird/sunbird-apimanager-util" %}
+
+Supporting Jobs
+
+{% embed url="https://github.com/project-sunbird/sunbird-lms-jobs" %}
+
+Report Jobs : Geo report, User-consent report
+
+{% embed url="https://github.com/Sunbird-Ed/sunbird-data-products" %}
+
+[StateAdminGeoReportJob.scala](https://github.com/Sunbird-Ed/sunbird-data-products/blob/master/data-products/src/main/scala/org/sunbird/analytics/job/report/StateAdminGeoReportJob.scala), [StateAdminReportJob.scala](https://github.com/Sunbird-Ed/sunbird-data-products/blob/master/data-products/src/main/scala/org/sunbird/analytics/job/report/StateAdminReportJob.scala)
+
+{% embed url="https://github.com/Sunbird-Ed/sunbird-data-products/tree/master/data-products/src/main/scala/org/sunbird/analytics/job/report" %}
+
+Enviroment and API Configurations&#x20;
+
+{% embed url="https://github.com/project-sunbird/sunbird-devops" %}
