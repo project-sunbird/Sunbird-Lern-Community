@@ -8,4 +8,8 @@ Group Service - [GitHub - project-sunbird/groups-service](https://github.com/pro
 
 Environment and API Configurations&#x20;
 
-{% embed url="https://github.com/project-sunbird/sunbird-devops" %}
+[https://github.com/project-sunbird/sunbird-devops](https://github.com/project-sunbird/sunbird-devops)
+
+Database setup:
+
+[https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra](https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra)

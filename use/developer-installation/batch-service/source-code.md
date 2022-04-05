@@ -10,6 +10,10 @@ Certificate Registry - [https://github.com/project-sunbird/certificate-registry]
 
 Environment and API Configurations - [https://github.com/project-sunbird/sunbird-devops](https://github.com/project-sunbird/sunbird-devops)
 
+Database setup:
+
+[https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra](https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra)
+
 KP Flink Jobs:&#x20;
 
 Activity aggregate updater, Cert-preprocessor, Cert-generator, Relational cache updater
