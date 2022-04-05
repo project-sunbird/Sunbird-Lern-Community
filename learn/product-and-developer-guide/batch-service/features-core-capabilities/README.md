@@ -10,3 +10,11 @@ The following are a few sample functionalities that the Batch Service APIs can b
 
 
 ![](<../../../../.gitbook/assets/image (3) (2).png>)
+
+#### Trackable Collections - Exhaust <a href="#title-text" id="title-text"></a>
+
+Following are the available exhausts for a trackable collection:
+
+1. Progress Exhaust - Progress exhaust contains the progress related information for the collection and the nested collections including the assessment related scores of the collection. The nested collections and the assessments within the collection will be transposed as columns and hence the columns for each collection exhaust file would vary.
+2. User Info Exhaust - User personal info exhaust contains the additional information of the users that have joined the collection. The information contains personal details such as Email, Phone number etc and all such personal information is provided only on explicit consent by the user.
+3. Response Exhaust - Response exhaust contains the user responses to each question for all question sets in a trackable collection.
