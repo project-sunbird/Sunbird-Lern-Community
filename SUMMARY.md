@@ -63,7 +63,6 @@
 ## USE
 
 * [Overview](use/release-notes.md)
-* [Server Installation](use/server-installation.md)
 * [Developer Installation](use/developer-installation/README.md)
   * [DISCUSSION FORUM](use/developer-installation/discussion-forum/README.md)
     * [System Requirements](use/developer-installation/discussion-forum/system-requirements.md)
