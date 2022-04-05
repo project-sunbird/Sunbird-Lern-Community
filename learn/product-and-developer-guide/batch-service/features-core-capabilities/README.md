@@ -1,4 +1,4 @@
-# Feature/Core Capabilities
+# Features/Core Capabilities
 
 The following are a few sample functionalities that the Batch Service APIs can be used for, on the platform:
 
@@ -9,4 +9,4 @@ The following are a few sample functionalities that the Batch Service APIs can b
 
 
 
-![](<../../../.gitbook/assets/image (3) (2).png>)
+![](<../../../../.gitbook/assets/image (3) (2).png>)
