@@ -26,6 +26,6 @@ Report Jobs : Geo report, User-consent report
 
 {% embed url="https://github.com/Sunbird-Ed/sunbird-data-products/tree/master/data-products/src/main/scala/org/sunbird/analytics/job/report" %}
 
-Enviroment and API Configurations&#x20;
+Environment and API Configurations&#x20;
 
 {% embed url="https://github.com/project-sunbird/sunbird-devops" %}
