@@ -25,6 +25,14 @@ sunbird_mail_server_host=
 sunbird_mail_server_password=
 sunbird_mail_server_username=
 sunbird_mail_server_port=
+sunbird_us_system_setting_url=/api/data/v1/system/settings/list
+sunbird_us_org_read_url=/v1/org/read
+LEARNER_SERVICE_PORT=
+sunbird_sso_client_id=
+sunbird_sso_username=
+sunbird_sso_password=
+sunbird_sso_url=
+sunbird_sso_realm=
 ```
 
 

@@ -22,6 +22,7 @@
     * [Source Code](learn/product-and-developer-guide/batch-service/source-code.md)
     * [Dependencies](learn/product-and-developer-guide/batch-service/dependencies.md)
     * [Configurations](learn/product-and-developer-guide/batch-service/configurations.md)
+    * [Telemetry Events](learn/product-and-developer-guide/batch-service/telemetry-events.md)
   * [GROUPS](learn/product-and-developer-guide/groups/README.md)
     * [Architecture](learn/product-and-developer-guide/groups/architecture.md)
     * [Features/Core Capabilities](learn/product-and-developer-guide/groups/features-core-capabilities.md)
