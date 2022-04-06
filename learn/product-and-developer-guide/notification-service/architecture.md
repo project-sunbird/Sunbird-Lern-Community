@@ -1,6 +1,10 @@
-# Tech Design of The Component
+# Architecture
 
 #### **Architecture Diagram:**
+
+![](../../../.gitbook/assets/notification.png)
+
+****
 
 ![](<../../../.gitbook/assets/image (1).png>)
 

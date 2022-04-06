@@ -1,6 +1,6 @@
 # Architecture
 
-![](<../../../.gitbook/assets/Batch Service - Frame.png>)
+![](<../../../.gitbook/assets/tracking and credentials.png>)
 
 
 
