@@ -1,10 +1,10 @@
-# Schema’s Specific to Service
+# Schema
 
 ### **Cassandra** Database <a href="#database" id="database"></a>
 
 **ER diagram**
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (7) (1).png>)
 
 **Group Table**
 
