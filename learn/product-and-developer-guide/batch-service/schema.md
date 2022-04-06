@@ -54,5 +54,3 @@ CREATE INDEX inx_ucc_status ON sunbird_courses.user_content_consumption (status)
 Below are the schema definition for different tables were given below:
 
 **course-batch index**
-
-****

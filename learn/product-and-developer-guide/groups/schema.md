@@ -4,7 +4,7 @@
 
 **ER diagram**
 
-![](<../../../.gitbook/assets/image (7) (1).png>)
+![](../../../.gitbook/assets/sunbird\_groups.png)
 
 #### Group Keyspace:
 

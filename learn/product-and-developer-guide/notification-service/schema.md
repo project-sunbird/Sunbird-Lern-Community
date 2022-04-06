@@ -2,6 +2,10 @@
 
 #### Schema Definition <a href="#schema-definition" id="schema-definition"></a>
 
+**ER Diagram**
+
+![](../../../.gitbook/assets/sunbird-notifications.png)
+
 Contains the notification standard schema definition. Any notification event creation request should follow the same specs to create any notifications.
 
 #### Notification Keyspace:
