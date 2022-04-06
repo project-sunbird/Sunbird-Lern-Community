@@ -6,6 +6,13 @@
 
 ![](<../../../.gitbook/assets/image (7) (1).png>)
 
+#### Group Keyspace:
+
+```
+CREATE KEYSPACE IF NOT EXISTS sunbird_groups WITH replication = {'class':'SimpleStrategy','replication_factor':1};CREATE TABLE IF NOT EXISTS  sunbird.user(id text,userId text,userName text, email text,phone text,aadhaarNo text,createdDate text,updatedDate text,updatedBy text,
+ode
+```
+
 **Group Table**
 
 ```

@@ -1,8 +1,17 @@
-# Schema's specific to Service
+# Schema
 
 #### Schema Definition <a href="#schema-definition" id="schema-definition"></a>
 
 Contains the notification standard schema definition. Any notification event creation request should follow the same specs to create any notifications.
+
+#### Notification Keyspace:
+
+```
+CREATE KEYSPACE IF NOT EXISTS sunbird_groups WITH replication = {'class':'SimpleStrategy','replication_factor':1};CREATE TABLE IF NOT EXISTS  sunbird.user(id text,userId text,userName text, email text,phone text,aadhaarNo text,createdDate text,updatedDate text,updatedBy text,
+ode
+```
+
+#### Notification Table:
 
 ```
 CREATE TABLE sunbird_notifications.notification_feed (

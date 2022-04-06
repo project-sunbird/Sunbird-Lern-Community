@@ -12,17 +12,36 @@ User\&Org service requires few configurations to be set in properties file. Some
 
 {% embed url="https://github.com/project-sunbird/sunbird-lms-service/tree/release-4.5.0/core/platform-common/src/main/resources" %}
 
-* Cassandra Migration in [sunbird-utils](https://github.com/project-sunbird/sunbird-utils) needs to be run before user\&org service run to create necessary tables required.&#x20;
+### Cassandra Migration:
 
-{% embed url="https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-cassandra-migration/cassandra-migration/src/main/resources/db/migration/cassandra" %}
+Download the above and replace this file path in the below command(instead of the file path).
 
-Database details need to be configured in dbconfig.propeties file.
+```
+cqlsh 	-f  filepath         // i.e: /home/reshmi/git-sunbird/sunbird-lms-service/actors/sunbird-lms-mw/service/src/main/resources/cassandra.cql 	 	
+```
 
-* Elastic search need to be setup with indices and mappings from [sunbird-utils](https://github.com/project-sunbird/sunbird-utils).
+In Terminal In **/home/reshmi/git-sunbird/sunbird-utils**
+
+```
+Run - mvn clean install -DskipTests
+```
+
+In **/home/reshmi/git-sunbird/sunbird-utils/sunbird-cassandra-migration/cassandra-migration**, run below command:
+
+```
+Run mvn clean install -DskipTests
+mvn exec:java
+```
+
+### Elastic Search:
+
+Elastic search needs to be setup with indices and mappings from [sunbird-utils](https://github.com/project-sunbird/sunbird-utils).
+
+Pick all the indices and mappings from ** **<mark style="color:green;">**sunbird-utils/sunbird-es-utils/src/main/resources**</mark> <mark style="color:green;"></mark><mark style="color:green;"></mark> folders and create index and mapping using postman.&#x20;
+
+Create index and mapping mainly for **user, userfeed, usernotes, org,** and **location** JSON files.
 
 {% embed url="https://github.com/project-sunbird/sunbird-utils/tree/master/sunbird-es-utils/src/main/resources" %}
-
-Pick all the indices and mappings from these folders and create index and mapping using postman.&#x20;
 
 PUT http://localhost:9200/\<indices\_name> Body : \<indices\_json\_content>
 
