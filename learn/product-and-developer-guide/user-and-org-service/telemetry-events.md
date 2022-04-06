@@ -11,13 +11,46 @@ Telemetry is a specification to instrument all the key events. Using this specif
 <summary>Audit Event</summary>
 
 ```
-"edata": {
-    "state": "Create", // defines the state i.e: Mergecert, Mergeuser
-    "props": [
-      "certId", // certificate Id
-      "userId"  // user Id
-    ]
-  }
+{
+   "eid":"AUDIT",
+   "ets":1649247985143,
+   "ver":"3.0",
+   "mid":"d808691c-e253-43a6-a8a0-aa03bc67b6ce",
+   "actor":{
+      "id":"50792198-c6d7-4964-8d4c-da6891ceed0a",
+      "type":"User"
+   },
+   "context":{
+      "channel":"0126796199493140480",
+      "pdata":{
+         "id":"staging.sunbird.learning.service",
+         "pid":"learner-service",
+         "ver":"4.7.0"
+      },
+      "env":"User",
+      "cdata":[
+         {
+            "id":"d808691c-e253-43a6-a8a0-aa03bc67b6ce",
+            "type":"Request"
+         }
+      ],
+      "rollup":{
+         "l1":"0126796199493140480"
+      }
+   },
+   "object":{
+      "type":"User"
+   },
+   "edata":{
+      "state":"Update",
+      "props":[
+         "identifier",
+         "tncAcceptedOn",
+         "id",
+         "tncAcceptedVersion"
+      ]
+   }
+}
 ```
 
 
@@ -29,19 +62,52 @@ Telemetry is a specification to instrument all the key events. Using this specif
 <summary>Search Event</summary>
 
 ```
-"edata": {
-    "size": 1,
-    "query": "", // serach query
-    "filters": {
-      "channel": "ORG_001" // filter based on channel or org
-    },
-    "sort": {},
-    "type": "org",
-    "topn": [
-      {
-        "id": "0126322873849692160"
+{
+   "eid":"SEARCH",
+   "ets":1649247379860,
+   "ver":"3.0",
+   "mid":"4e0e50ed-92c0-5c80-ff29-b3a194a1911f",
+   "actor":{
+      "id":"86fe48dd-72d5-4f27-a9b4-c55580878ec4",
+      "type":"User"
+   },
+   "context":{
+      "channel":"0126796199493140480",
+      "pdata":{
+         "id":"staging.dock.portal",
+         "pid":"learner-service",
+         "ver":"4.7.0"
+      },
+      "env":"User",
+      "did":"487975adbe74ea73faea476eab1ebb31",
+      "cdata":[
+         {
+            "id":"4e0e50ed-92c0-5c80-ff29-b3a194a1911f",
+            "type":"Request"
+         }
+      ],
+      "rollup":{
+         "l1":"0126796199493140480"
       }
-    ]
+   },
+   "edata":{
+      "size":1,
+      "query":"",
+      "filters":{
+         "id":[
+            "0126796199493140480"
+         ]
+      },
+      "sort":{
+         
+      },
+      "type":"Org_alias",
+      "topn":[
+         {
+            "id":"0126796199493140480"
+         }
+      ]
+   }
 }
 ```
 
@@ -54,10 +120,39 @@ Telemetry is a specification to instrument all the key events. Using this specif
 <summary>Error Event</summary>
 
 ```
-"edata": {
-    "err": null, // error
-    "stacktrace": "org.sunbird.common.exception.ProjectCommonException.throwClientErrorException(ProjectCommonException",
-    "errtype": null // error type
+{
+   "eid":"ERROR",
+   "ets":1649248112302,
+   "ver":"3.0",
+   "mid":"31eab671-1395-4135-8723-15ffa5d349cb",
+   "actor":{
+      "id":"internal",
+      "type":"Consumer"
+   },
+   "context":{
+      "channel":"0126796199493140480",
+      "pdata":{
+         "id":"staging.sunbird.learning.service",
+         "pid":"learner-service",
+         "ver":"4.7.0"
+      },
+      "env":"Organisation",
+      "cdata":[
+         {
+            "id":"31eab671-1395-4135-8723-15ffa5d349cb",
+            "type":"Request"
+         }
+      ],
+      "rollup":{
+         
+      }
+   },
+   "edata":{
+      "err":"UOS_ORGSER0017",
+      "stacktrace":"Invalid value null for parameter hashTagId. Please provide a valid value. org.sunbird.validator.BaseRequestValidator.lambda$validateListValues$6(BaseRequestValidator.java:291)java.base/java.util.ArrayList.forEach(ArrayList.java:1541)org.sunbird.validator.BaseRequestValidator.validateListValues",
+      "errtype":"api_access",
+      "requestid":"31eab671-1395-4135-8723-15ffa5d349cb"
+   }
 }
 ```
 
@@ -70,25 +165,59 @@ Telemetry is a specification to instrument all the key events. Using this specif
 <summary>Log Event</summary>
 
 ```
-"edata": {
-    "level": "info",
-    "type": "api_access", // type of event i.e: success event
-    "message": "",
-    "params": [
-      {
-        "duration": 65
+{
+   "eid":"LOG",   
+   "actor":{
+      "id":"internal",
+      "type":"Consumer"
+   },
+   "edata":{
+      "level":"info",
+      "type":"Api_access",
+      "message":"",
+      "params":[
+         {
+            "method":"POST"
+         },
+         {
+            "url":"/v1/org/search"
+         },
+         {
+            "duration":0
+         },
+         {
+            "status":"OK"
+         }
+      ]
+   },
+   "ver":"3.0",
+   "syncts":1649247488365,
+   "@timestamp":"2022-04-06T12:18:08.365Z",
+   "ets":1649247476273,
+   "context":{
+      "channel":"0126796199493140480",
+      "pdata":{
+         "id":"staging.sunbird.learning.service",
+         "pid":"learner-service",
+         "ver":"4.7.0"
       },
-      {
-        "method": "POST" // API Method type
-      },
-      {
-        "url": "/v1/course/batch/create" // API
-      },
-      {
-        "status": "200" // status code
+      "env":"Organisation",
+      "cdata":[
+         {
+            "id":"9c158007-345b-44d7-a128-6c36f7a42cfb",
+            "type":"Request"
+         }
+      ],
+      "rollup":{
+         
       }
-    ]
-  }
+   },
+   "flags":{
+      "pp_validation_processed":true
+   },
+   "mid":"9c158007-345b-44d7-a128-6c36f7a42cfb",
+   "type":"events"
+}
 ```
 
 

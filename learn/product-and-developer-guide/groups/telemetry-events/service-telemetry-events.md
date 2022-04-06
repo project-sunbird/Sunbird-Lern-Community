@@ -1,4 +1,4 @@
-# Back End Telemetry Events
+# Service Telemetry Events
 
 ### List of Events <a href="#list-of-events" id="list-of-events"></a>
 
@@ -16,17 +16,6 @@
     ],
     "currentstate": "active"
   }
-```
-
-
-
-</details>
-
-<details>
-
-<summary>Search Event</summary>
-
-```
 ```
 
 
