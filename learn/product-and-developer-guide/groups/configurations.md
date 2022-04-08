@@ -1,4 +1,6 @@
-# Configuration Options
+# Configurations
+
+### Group Config
 
 | Property                     | Description                                                        | Default Value |
 | ---------------------------- | ------------------------------------------------------------------ | ------------- |
@@ -10,6 +12,30 @@
 | user\_redis\_ttl             | User group list cache duration                                     | 3600          |
 | activityConfig               | To configure various types of activities and services to fetch it. |               |
 
-#### Source Code:&#x20;
+### Cassandra Config&#x20;
 
-[GitHub - project-sunbird/groups-service](https://github.com/project-sunbird/groups-service)
+```
+coreConnectionsPerHostForLocal=4
+coreConnectionsPerHostForRemote=2
+maxConnectionsPerHostForLocal=10
+maxConnectionsPerHostForRemote=4
+maxRequestsPerConnection=32768
+heartbeatIntervalSeconds=60
+poolTimeoutMillis=0
+contactPoint=127.0.0.1
+port=9042
+userName=cassandra
+password=password
+queryLoggerConstantThreshold=300
+keyspace=sunbird
+```
+
+### DB Config
+
+```
+db.ip=127.0.0.1
+db.port=9042
+db.username=cassandra
+db.password=password
+db.keyspace=sunbird
+```

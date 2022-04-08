@@ -47,8 +47,10 @@ sunbird_us_org_read_url=/v1/org/read
 ```
 LEARNER_SERVICE_PORT=
 sunbird_user_service_search_url=/private/api/user/v1/search
-sunbird_sso_url=
-sunbird_sso_realm=
+sso.url=
+sso.realm=sunbird
+sso.connection.pool.size=20
+sso.enabled=true
 ```
 
 #### Content Service:

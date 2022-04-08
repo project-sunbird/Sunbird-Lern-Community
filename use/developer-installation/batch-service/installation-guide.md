@@ -66,3 +66,29 @@ Configure Sunbird Knowlg - Search service for course metadata
 Configure Sunbird Inquiry to fetch QuestionSet metadata.
 
 Configure Kafka setup for sending telemetry events. Sunbird Telemetry is a specification to instrument all the key events.&#x20;
+
+Following are the configuration values for developers:
+
+| Property                         | Description | Default Value |
+| -------------------------------- | ----------- | ------------- |
+| actor\_hostname                  |             |               |
+| badging\_authorization\_key      |             |               |
+| druid\_proxy\_api\_endpoint      |             |               |
+| druid\_proxy\_api\_host          |             |               |
+| druid\_proxy\_api\_port          |             |               |
+| sunbird\_cassandra\_host         |             |               |
+| sunbird\_cassandra\_password     |             |               |
+| sunbird\_cassandra\_port         |             |               |
+| sunbird\_cassandra\_username     |             |               |
+| sunbird\_cs\_base\_url           |             |               |
+| sunbird\_cs\_search\_path        |             |               |
+| sunbird\_es\_host                |             |               |
+| sunbird\_es\_port                |             |               |
+| sunbird\_pg\_db                  |             |               |
+| sunbird\_pg\_host                |             |               |
+| sunbird\_pg\_password            |             |               |
+| sunbird\_pg\_port                |             |               |
+| sunbird\_pg\_user                |             |               |
+| sunbird\_redis\_host             |             |               |
+| sunbird\_redis\_port             |             |               |
+| accesstoken\_publickey\_basepath |             |               |

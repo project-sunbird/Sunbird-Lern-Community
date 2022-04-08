@@ -4,7 +4,7 @@ Telemetry is a specification to instrument all the key events. Using this specif
 
 ### List of Events <a href="#list-of-events" id="list-of-events"></a>
 
-**Front End Events**
+**UI Telemetry  Events**
 
 <details>
 
@@ -73,7 +73,7 @@ Telemetry is a specification to instrument all the key events. Using this specif
 
 </details>
 
-#### Back End Events
+#### &#x20;Service Events
 
 <details>
 
