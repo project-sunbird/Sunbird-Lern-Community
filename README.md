@@ -8,14 +8,14 @@ Sunbird Lern is primarily a set of microservices along with some reference UX wi
 
 A few examples of solutions that can be assembled with Lern include:&#x20;
 
-* (a) Integration of Sunbird to an existing system to allow valid users with accounts on the system to login via single sign-on to Sunbird&#x20;
-* (b) Bulk-create a set of user accounts for a set of participants in a workshop that uses an online platform/ Sunbird&#x20;
-* (c) Allow for generation of and issuing of certificates to participants of a course in a workshop that uses an online platform/ Sunbird
-* (d) Assign rights (say content creation rights) to an identified set of users for say a content creation workshop&#x20;
-* (e) Assign a group of learners to a batch and allow them take a course within specified start-end dates.&#x20;
-* (f) Enable a discussion forum for a Batch of users taking a course or a Group of users so that participants can collaborate&#x20;
-* (g) Create a group of users, assign learning material, courses and quizzes to them, and track their progress or scores against Courses.&#x20;
-*   (h) Send notifications to a set of users about new content / activities that have been added on the platform &#x20;
+* Integration of Sunbird to an existing system to allow valid users with accounts on the system to login via single sign-on to Sunbird&#x20;
+* Bulk-create a set of user accounts for a set of participants in a workshop that uses an online platform/ Sunbird&#x20;
+* Allow for generation of and issuing of certificates to participants of a course in a workshop that uses an online platform/ Sunbird
+* Assign rights (say content creation rights) to an identified set of users for say a content creation workshop&#x20;
+* Assign a group of learners to a batch and allow them take a course within specified start-end dates.&#x20;
+* Enable a discussion forum for a Batch of users taking a course or a Group of users so that participants can collaborate&#x20;
+* Create a group of users, assign learning material, courses and quizzes to them, and track their progress or scores against Courses.&#x20;
+*   Send notifications to a set of users about new content / activities that have been added on the platform &#x20;
 
     ****
 
