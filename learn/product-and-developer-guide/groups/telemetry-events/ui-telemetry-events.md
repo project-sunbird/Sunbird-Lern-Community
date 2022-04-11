@@ -1,4 +1,4 @@
-# Front End Telemetry Events
+# UI Telemetry Events
 
 ### List of Events
 
@@ -7,13 +7,47 @@
 <summary>Impression Event</summary>
 
 ```
-"edata": {
-    "type": "view", 
-    "pageid": "explore-groups", // defines the event from which page
+{
+  "eid": "IMPRESSION",
+  "ets": 1594273993053,
+  "ver": "3.0",
+  "mid": "IMPRESSION:b9adb59d49eefbe975f2df9bcc3af7d4",
+  "actor": {
+    "id": "c1526b161339fe4fc544be6b78f2ae66",
+    "type": "User"
+  },
+  "context": {
+    "channel": "0123166374296453124",
+    "pdata": {
+      "id": "dev.sunbird.portal",
+      "ver": "3.1.0",
+      "pid": "sunbird-portal"
+    },
+    "env": "groups",
+    "sid": "aecad6ce-e969-c9c4-dd49-ac6b390207e5",
+    "did": "c1526b161339fe4fc544be6b78f2ae66",
+    "cdata": [
+      {
+        "id": "Desktop",
+        "type": "Device"
+      }
+    ],
+    "rollup": {
+      "l1": "0123166374296453124"
+    }
+  },
+  "object": {},
+  "tags": [
+    "0123166374296453124"
+  ],
+  "edata": {
+    "type": "view",
+    "pageid": "explore-groups",
     "subtype": "paginate",
     "uri": "/explore-groups",
     "duration": 1.113
   }
+}
 ```
 
 
@@ -25,11 +59,45 @@
 <summary>Intract Event</summary>
 
 ```
- "edata": {
-    "id": "groups-tab", 
-    "type": "click", // action type
-    "pageid": "groups" 
+{
+  "eid": "INTERACT",
+  "ets": 1594279207141,
+  "ver": "3.0",
+  "mid": "INTERACT:2a44e5e066c7438ddde627aba350d6d3",
+  "actor": {
+    "id": "c1526b161339fe4fc544be6b78f2ae66",
+    "type": "User"
+  },
+  "context": {
+    "channel": "0123166374296453124",
+    "pdata": {
+      "id": "dev.sunbird.portal",
+      "ver": "3.1.0",
+      "pid": "sunbird-portal"
+    },
+    "env": "home",
+    "sid": "dfb26f00-33c6-6240-f65b-24e90b7147bc",
+    "did": "c1526b161339fe4fc544be6b78f2ae66",
+    "cdata": [
+      {
+        "id": "Desktop",
+        "type": "Device"
+      }
+    ],
+    "rollup": {
+      "l1": "0123166374296453124"
+    }
+  },
+  "object": {},
+  "tags": [
+    "0123166374296453124"
+  ],
+  "edata": {
+    "id": "groups-tab",
+    "type": "click",
+    "pageid": "groups"
   }
+}
 ```
 
 
@@ -41,33 +109,11 @@
 <summary>Error Event</summary>
 
 ```
-"edata": {
-    "err": "CLIENT_ERROR", // defines the error
-    "errtype": "ACTIVITY_ID_MISSING", // error type
-    "stacktrace": "unhandled error",
-    "requestid": "bdf1f139-6e39-47ad-860a-b5a9a5f07815", // message id
-    "errmsg": [
-      "GROUPS ActivityId is mandatory."
-    ]
-  }
-```
-
-
-
-</details>
-
-### Sample Telemetry Data:
-
-<details>
-
-<summary>Error Event Data</summary>
-
-```
 {
   "eid": "ERROR",
-  "ets": 1615202343313,
+  "ets": 1615201298658,
   "ver": "3.0",
-  "mid": "ERROR:c72f604bd79d1827fb788e6f7dbca100",
+  "mid": "ERROR:e21d6112329634a20e7f168736a2bfed",
   "actor": {
     "id": "anonymous",
     "type": "user"
@@ -93,12 +139,12 @@
     "b00bc992ef25f1a9a8d63291e20efc8d"
   ],
   "edata": {
-    "err": "CLIENT_ERROR", // defines the error
-    "errtype": "ACTIVITY_ID_MISSING", // error type
+    "err": "SERVER_ERROR",
+    "errtype": "SERVER_ERROR",
     "stacktrace": "unhandled error",
-    "requestid": "bdf1f139-6e39-47ad-860a-b5a9a5f07815", // message id
+    "requestid": "4c41c808-c5eb-48a8-a44d-cdaa78589195",
     "errmsg": [
-      "GROUPS ActivityId is mandatory."
+      "GROUPS Error while fetching group members record."
     ]
   }
 }
