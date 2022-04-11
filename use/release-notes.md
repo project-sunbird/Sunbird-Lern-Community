@@ -6,4 +6,4 @@
 
 Below deployment view diagram will explain how Lern Building block components are deployed in SunbirdEd.&#x20;
 
-![](<../.gitbook/assets/Deployement  Diagram (2).png>)
+![](<../.gitbook/assets/Deployement  Diagram (5).png>)
