@@ -1,4 +1,4 @@
-# Configurations
+# Functional Configurations
 
 ### Group Config
 
@@ -12,30 +12,11 @@
 | user\_redis\_ttl             | User group list cache duration                                     | 3600          |
 | activityConfig               | To configure various types of activities and services to fetch it. |               |
 
-### Cassandra Config&#x20;
+### Configurations Variables:
 
 ```
-coreConnectionsPerHostForLocal=4
-coreConnectionsPerHostForRemote=2
-maxConnectionsPerHostForLocal=10
-maxConnectionsPerHostForRemote=4
-maxRequestsPerConnection=32768
-heartbeatIntervalSeconds=60
-poolTimeoutMillis=0
-contactPoint=127.0.0.1
-port=9042
-userName=cassandra
-password=password
-queryLoggerConstantThreshold=300
-keyspace=sunbird
+max_group_members_limit =150
+max_activity_limit=20
+max_group_limit=50
 ```
 
-### DB Config
-
-```
-db.ip=127.0.0.1
-db.port=9042
-db.username=cassandra
-db.password=password
-db.keyspace=sunbird
-```
