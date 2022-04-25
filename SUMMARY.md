@@ -108,5 +108,5 @@
     * [Source Code](use/developer-installation/notification-service/source-code.md)
     * [Installation Configuration](use/developer-installation/notification-service/installation-configuration.md)
 * [Release Notes](use/release-notes/README.md)
-  * [release-4.7.0 (Live)](use/release-notes/release-4.7.0-live.md)
-  * [release-4.8.0 (Upcoming)](use/release-notes/release-4.8.0-upcoming.md)
+  * [Release V 4.7.0 (Live)](use/release-notes/release-v-4.7.0-live.md)
+  * [Release V 4.8.0 (Upcoming)](use/release-notes/release-v-4.8.0-upcoming.md)
