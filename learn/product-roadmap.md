@@ -1,6 +1,6 @@
 # Product Roadmap
 
-Sunbird Lern ISSUE TRACKER : This is the link to the set of issues/ submissions or requests that are being considered for development as part of the Sunbird Lern roadmap. You can upvote an issue if you find it relevant, or add a new issue to the list
+Sunbird Lern [ISSUE TRACKER](https://github.com/Sunbird-Lern/Community/issues) : This is the link to the set of issues/ submissions or requests that are being considered for development as part of the Sunbird Lern roadmap. You can upvote an issue if you find it relevant, or <mark style="color:blue;">add a new issue</mark> to the list
 
 
 
@@ -15,6 +15,6 @@ Sunbird Lern ISSUE TRACKER : This is the link to the set of issues/ submissions 
 | i. Build, Deploy and provisioning scripts : refactoring of the provisioning and deployment scripts for the BB                                                                                                                                                                                                                                                                                                                                                                                               |
 | ii. Be able to deploy existing microservices into a different namespace (SB Ed)                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
-#### Sunbird Lern Backlog
+#### [Sunbird Lern Backlog](https://project-sunbird.atlassian.net/issues/?filter=12361)
 
 This is the list of approved backlog items that can be picked up by the Sunbird Lern team as well as other contributors or adopters for development and submission as part of the Lern building block.\
