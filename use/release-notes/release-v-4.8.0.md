@@ -1,10 +1,16 @@
-# Release V 4.8.0 (Upcoming)
+# Release V 4.8.0
 
 ### Document Release Version <a href="#document-release-version" id="document-release-version"></a>
 
-| Project | Release Date              | Version |
-| ------- | ------------------------- | ------- |
-| Lern    | 28 April 2022 (tentative) | V 4.8.0 |
+| Project | Release Date   | Version |
+| ------- | -------------- | ------- |
+| Lern    | 28 April 2022  | V 4.8.0 |
+
+### Details of Released Tag:
+
+| Component     | Tag                                                                                                                  |
+| ------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Batch Service | [**release-4.8.0\_RC2** ](https://github.com/project-sunbird/sunbird-course-service/releases/tag/release-4.8.0\_RC2) |
 
 ### **Summary of the Changes** <a href="#1.-summary-of-the-changes" id="1.-summary-of-the-changes"></a>
 
@@ -38,9 +44,9 @@
 {% endtab %}
 
 {% tab title="Notification Service" %}
-| Component | Tag                                                               | Descriptions                                     |
-| --------- | ----------------------------------------------------------------- | ------------------------------------------------ |
-| Portal    | [SB-29311](https://project-sunbird.atlassian.net/browse/SB-29311) | Redirection on onclick of notification bell icon |
+| JIRA ID                                                           | Descriptions                                     |
+| ----------------------------------------------------------------- | ------------------------------------------------ |
+| [SB-29311](https://project-sunbird.atlassian.net/browse/SB-29311) | Redirection on onclick of notification bell icon |
 {% endtab %}
 {% endtabs %}
 

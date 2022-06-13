@@ -20,7 +20,7 @@ Go to nodebb folder and run your local nodebb. Using below commands.
 
 **Step:2**
 
-Open this url in browser [http://loclahost:4567](http://localhost:4567) and login as admin.
+Open this url in browser [http://loclahost:4567](http://localhost:4567/) and login as admin.
 
 **Step:3**
 
