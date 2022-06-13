@@ -6,7 +6,7 @@
 | ------- | -------------- | ------- |
 | Lern    | 28 April 2022  | V 4.8.0 |
 
-### Details of Released Tag:
+### Details of Released Tag
 
 | Component                  | Tag                                                                                                                  |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -23,9 +23,7 @@
 * Update Lern BB Microsite
 * Build and Deployment automation of Sunbird RC
 * Contribute to RC on QR code generation with a specific type
-*   Certificate Generator Job Integration with RC to re-issue the certificate
-
-    ****
+* Certificate Generator Job Integration with RC to re-issue the certificate
 
 ### **Details of the Changes** <a href="#2.-details-of-the-changes" id="2.-details-of-the-changes"></a>
 
@@ -57,7 +55,7 @@
 
 Detailed Information is present in the [JIRA](https://project-sunbird.atlassian.net/issues/?filter=12417) list.
 
-Environment Changes:
+### Environment Changes
 
 | Variable Names                                              | Env                       | value                                                                                                                                                                                                                                                                                                                                  |
 | ----------------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -66,7 +64,7 @@ Environment Changes:
 | CERTIFICATE\_PRIVATE\_KEY                                   | CertificateSign           | <p>add cert private key variable in secrets.yml<br>https://www.scottbrady91.com/openssl/creating-rsa-keys-using-openssl<a href="https://github.com/Sunbird-RC/community/discussions/200"><br></a><a href="https://github.com/Sunbird-RC/community/discussions/200">https://github.com/Sunbird-RC/community/discussions/20</a>0<br></p> |
 | collection\_certificate\_generator\_enable\_rc\_certificate | sunbird-learning-platform | [https://github.com/project-sunbird/sunbird-learning-platform](https://github.com/project-sunbird/sunbird-learning-platform)                                                                                                                                                                                                           |
 
-Manual Configurations:
+### Manual Configurations
 
 | <p>Template migration for sunbirdRc integration, please follow the wiki for the same<br><br></p> | [https://project-sunbird.atlassian.net/wiki/spaces/UM/pages/3107749898/SB-29124+SVG+Template+migration](https://project-sunbird.atlassian.net/wiki/spaces/UM/pages/3107749898/SB-29124+SVG+Template+migration) |
 | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
