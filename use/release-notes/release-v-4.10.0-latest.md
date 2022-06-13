@@ -23,6 +23,8 @@
 
 {% tabs %}
 {% tab title="User&Org Service" %}
+
+
 | JIRA ID                                                           | Descriptions                                       |
 | ----------------------------------------------------------------- | -------------------------------------------------- |
 | [SB-27866](https://project-sunbird.atlassian.net/browse/SB-27866) | User accounts without Phone or Email Issue Fix     |
@@ -33,8 +35,17 @@
 | JIRA ID                                                           | Descriptions                           |
 | ----------------------------------------------------------------- | -------------------------------------- |
 | [SB-29794](https://project-sunbird.atlassian.net/browse/SB-29794) | Discussion forum >> Moderation changes |
+
+**New Environment variables**
+
+```
+enable_audit_event={{ enable_audit_event | default(true) }}
+moderation_flag={{ moderation_flag | default(false) }}
+```
 {% endtab %}
 {% endtabs %}
+
+
 
 Detailed Information is present in the [JIRA](https://project-sunbird.atlassian.net/issues/?filter=12500) list.
 

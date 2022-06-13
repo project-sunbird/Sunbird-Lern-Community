@@ -38,9 +38,111 @@ We need to create a categories in Nodebb.
 
 **Step:3**
 
-Click on **Discussion forum for groups,** You will category ID in url bar. Use that category id as a **PID**&#x20;
+Click on **Discussion forum for groups,** You will category ID in url bar. Use that category id as a **PID.**
 
-****
+And update the form api by replacing the PID in payload.
+
+```
+POST: /data/v1/form/create 
+```
+
+```
+{
+  "request": {
+    "type": "forum",
+    "subType": "group",
+    "action": "create",
+    "data": {
+      "templateName": "defaultTemplate",
+      "action": "create",
+      "fields": [
+        {
+          "category": {
+            "name": "General Discussion",
+            "pid": "30",
+            "uid": "4",
+            "description": "",
+            "context": [
+              {
+                "type": "group",
+                "identifier": "_groupId"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**Step: 4**
+
+Verify if the form api is updated or not by calling the below api.
+
+```
+POST: /data/v1/form/read 
+```
+
+**Payload**
+
+```
+{
+    "request": {
+        "type": "forum",
+        "subType": "group",
+        "action": "create"
+    }
+}
+```
+
+**Response**
+
+```
+{
+    "id": "api.form.read",
+    "params": {
+        "resmsgid": "f18a1975-8d64-4590-b419-be495cd9d6c4",
+        "msgid": "255e08db-2464-4edd-aab6-cbde4308f53e",
+        "status": "successful"
+    },
+    "responseCode": "OK",
+    "result": {
+        "form": {
+            "type": "forum",
+            "subtype": "group",
+            "action": "create",
+            "component": "*",
+            "framework": "*",
+            "data": {
+                "templateName": "defaultTemplate",
+                "action": "create",
+                "fields": [
+                    {
+                        "category": {
+                            "name": "General Discussion",
+                            "pid": "30",
+                            "uid": "4",
+                            "description": "",
+                            "context": [
+                                {
+                                    "type": "group",
+                                    "identifier": "_groupId"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "created_on": "2021-02-15T05:33:03.734Z",
+            "last_modified_on": "2021-02-15T09:52:41.820Z",
+            "rootOrgId": "*"
+        }
+    },
+    "ts": "2021-02-15T10:14:08.707Z",
+    "ver": "1.0"
+}
+```
 
 ### **CURL for attaching discussion forum**
 
