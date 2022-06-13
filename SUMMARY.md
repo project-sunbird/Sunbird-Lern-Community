@@ -110,5 +110,5 @@
 * [Release Notes](use/release-notes/README.md)
   * [Release V 4.10.0 (Latest)](use/release-notes/release-v-4.10.0-latest.md)
   * [Release V 4.9.0](use/release-notes/release-v-4.9.0.md)
-  * [Release V 4.8.0](use/release-notes/release-v-4.8.0.md)
-  * [Release V 4.7.0](use/release-notes/release-v-4.7.0.md)
+  * [Release V 4.8.0](use/release-notes/release-v-4.8.0-upcoming.md)
+  * [Release V 4.7.0](use/release-notes/release-v-4.7.0-live.md)
