@@ -14,6 +14,6 @@ The Batch Service comprises APIs that permit for creation of Batches of users in
 
 **Contributors**: EkStep
 
-**Last Release Date**: Sep 17 2021
+**Last Release Date**: May 6 2022
 
-**Version**: 4.2.0
+**Version**: 4.9.0
