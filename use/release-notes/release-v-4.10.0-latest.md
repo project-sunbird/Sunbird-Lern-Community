@@ -43,3 +43,11 @@
 {% endtabs %}
 
 Detailed Information is present in the [JIRA](https://project-sunbird.atlassian.net/issues/?filter=12500) list.
+
+Manual Configurations:
+
+| Manual Tasks                            | Details                                                                                                                                                                                                                            | Comments               |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| Reindex Org ES Index in UserOrg Service | [https://project-sunbird.atlassian.net/wiki/spaces/UM/pages/2346156058/SC-2190+ES+scaling+-+reindexing+Org+index](https://project-sunbird.atlassian.net/wiki/spaces/UM/pages/2346156058/SC-2190+ES+scaling+-+reindexing+Org+index) | New index name - orgv3 |
+|                                         |                                                                                                                                                                                                                                    |                        |
+|                                         |                                                                                                                                                                                                                                    |                        |
