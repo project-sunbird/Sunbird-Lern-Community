@@ -1,17 +1,10 @@
-# Release V 4.7.0
+# Release V 4.7.0 (Live)
 
 ### Document Release Version <a href="#document-release-version" id="document-release-version"></a>
 
 | Project | Release Date  | Version |
 | ------- | ------------- | ------- |
 | Lern    | 01 March 2022 | V 4.7.0 |
-
-### Details of Released Tag:
-
-| Component         | Tag                                                                                                                  |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------- |
-| User\&Org Service | [**release-4.9.0\_RC4** ](https://github.com/project-sunbird/sunbird-course-service/releases/tag/release-4.9.0\_RC4) |
-| Discussion Forum  | [**release-4.7.0\_RC4** ](https://github.com/Sunbird-Lern/discussions-middleware/releases/tag/release-4.7.0\_RC4)    |
 
 ### **Summary of the Changes** <a href="#1.-summary-of-the-changes" id="1.-summary-of-the-changes"></a>
 
@@ -20,8 +13,8 @@ In 4.7.0, the following changes were implemented by the Lern BB,
 * Fixed course enrolment list API issue, while fetching more than 1000 enrolments
 * Sorted enrolment API list response as per last access date&#x20;
 * Added log4j vulnerability fix
-* Standardized Error code implementation in userOrg service
-* Extensive updates to the Lern microsite documentation ([https://inquiry.sunbird.org/](https://inquiry.sunbird.org/))
+* Standardized Errorcode implementation in userOrg service
+* Extensive updates to the Lern microsite documentation ([https://inquiry.sunbird.org/](https://inquiry.sunbird.org))
 
 ### **Details of the Changes** <a href="#2.-details-of-the-changes" id="2.-details-of-the-changes"></a>
 
@@ -52,6 +45,7 @@ In 4.7.0, the following changes were implemented by the Lern BB,
 | ----------------------------------------------------------------- | ----------------------------------- |
 | [SB-28567](https://project-sunbird.atlassian.net/browse/SB-28567) | DF audit events configuration check |
 | [SB-28743](https://project-sunbird.atlassian.net/browse/SB-28743) | <p>pdata version update <br></p>    |
+|                                                                   |                                     |
 
 
 {% endtab %}

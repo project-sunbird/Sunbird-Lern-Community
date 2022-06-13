@@ -8,6 +8,6 @@ This micro-service helps in sending notifications to the user like SMS, email, F
 
 **Contributors**: EkStep
 
-**Last Release Date**: Jan 4, 2022
+**Last Release Date**: Mar 04, 2021
 
-**Version**: 4.6.0
+**Version**: 3.7.0

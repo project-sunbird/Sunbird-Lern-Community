@@ -65,7 +65,7 @@ Build the nodebb using the below command.
 
 **Step:5**
 
-Open the browser with fallowing link [http://localhost:4567](http://localhost:4567/)
+Open the browser with fallowing link [http://localhost:4567](http://localhost:4567)
 
 **Use full commands**
 

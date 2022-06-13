@@ -1,21 +1,10 @@
-# Release V 4.8.0
+# Release V 4.8.0 (Upcoming)
 
 ### Document Release Version <a href="#document-release-version" id="document-release-version"></a>
 
-| Project | Release Date   | Version |
-| ------- | -------------- | ------- |
-| Lern    | 28 April 2022  | V 4.8.0 |
-
-### Details of Released Tag:
-
-| Component                  | Tag                                                                                                                  |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Batch Service              | [**release-4.8.0\_RC2** ](https://github.com/project-sunbird/sunbird-course-service/releases/tag/release-4.8.0\_RC2) |
-| CertRegistry               | release-4.8.5\_RC7                                                                                                   |
-| kp flink                   | release-4.8.5\_RC4                                                                                                   |
-| Sunbird-Rc/CertificateApi  |                                                                                                                      |
-| Sunbird-Rc/CertificateSign |                                                                                                                      |
-| Sunbird-Rc/Registry        |                                                                                                                      |
+| Project | Release Date              | Version |
+| ------- | ------------------------- | ------- |
+| Lern    | 28 April 2022 (tentative) | V 4.8.0 |
 
 ### **Summary of the Changes** <a href="#1.-summary-of-the-changes" id="1.-summary-of-the-changes"></a>
 
@@ -49,28 +38,11 @@
 {% endtab %}
 
 {% tab title="Notification Service" %}
-| JIRA ID                                                           | Descriptions                                     |
-| ----------------------------------------------------------------- | ------------------------------------------------ |
-| [SB-29311](https://project-sunbird.atlassian.net/browse/SB-29311) | Redirection on onclick of notification bell icon |
+| Component | Tag                                                               | Descriptions                                     |
+| --------- | ----------------------------------------------------------------- | ------------------------------------------------ |
+| Portal    | [SB-29311](https://project-sunbird.atlassian.net/browse/SB-29311) | Redirection on onclick of notification bell icon |
 {% endtab %}
 {% endtabs %}
 
 Detailed Information is present in the [JIRA](https://project-sunbird.atlassian.net/issues/?filter=12417) list.
 
-Environment Changes:
-
-| Variable Names                                              | Env                       | value                                                                                                                                                                                                                                                                                                                                  |
-| ----------------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| enable\_suppress\_exception                                 | kp flink                  |                                                                                                                                                                                                                                                                                                                                        |
-| enable\_rc\_certificate                                     | kp flink                  |                                                                                                                                                                                                                                                                                                                                        |
-| CERTIFICATE\_PRIVATE\_KEY                                   | CertificateSign           | <p>add cert private key variable in secrets.yml<br>https://www.scottbrady91.com/openssl/creating-rsa-keys-using-openssl<a href="https://github.com/Sunbird-RC/community/discussions/200"><br></a><a href="https://github.com/Sunbird-RC/community/discussions/200">https://github.com/Sunbird-RC/community/discussions/20</a>0<br></p> |
-| collection\_certificate\_generator\_enable\_rc\_certificate | sunbird-learning-platform | [https://github.com/project-sunbird/sunbird-learning-platform](https://github.com/project-sunbird/sunbird-learning-platform)                                                                                                                                                                                                           |
-
-Manual Configurations:
-
-| <p>Template migration for sunbirdRc integration, please follow the wiki for the same<br><br></p> | [https://project-sunbird.atlassian.net/wiki/spaces/UM/pages/3107749898/SB-29124+SVG+Template+migration](https://project-sunbird.atlassian.net/wiki/spaces/UM/pages/3107749898/SB-29124+SVG+Template+migration) |
-| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Run curl command from registry service pod<br>and share response id with dev team</p>         | <p>curl --location --request POST 'http://localhost:8081/api/v1/PublicKey' \<br>--header 'Content-Type: application/json' \<br>--data-raw '{<br>"value": "",<br>"alg": "RSA"<br>}'</p>                         |
-| Create sunbird-RC inventory folder(soft link to core common.yml, host, secrets.yml               |                                                                                                                                                                                                                |
-| Create database in postgress kong (CREATE DATABASE registry;)                                    |                                                                                                                                                                                                                |
-| Upload\_RC\_Schema                                                                               |                                                                                                                                                                                                                |

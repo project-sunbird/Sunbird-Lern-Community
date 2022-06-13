@@ -12,6 +12,6 @@ Watch the video on the learning series on Sunbird Groups [here](https://www.yout
 
 **Contributors**: EkStep
 
-**Last Release Date**: Nov 25, 2021
+**Last Release Date**: Sep 17, 2021
 
-**Version**: 4.5.0&#x20;
+**Version**: **release-4.2.0**

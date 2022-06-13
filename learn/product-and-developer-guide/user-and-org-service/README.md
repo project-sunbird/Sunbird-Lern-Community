@@ -18,6 +18,10 @@ This service provides a set of APIs to manage the user, organisation and locatio
 
 **Contributors**: EkStep
 
-**Last Release Date**: April 28 2022
+**Last Release Date**: Oct 21 2021
 
-**Version :** 4.9.0
+**Version :** 4.3.0&#x20;
+
+### &#x20;<a href="#authentication" id="authentication"></a>
+
+### &#x20;<a href="#authentication" id="authentication"></a>

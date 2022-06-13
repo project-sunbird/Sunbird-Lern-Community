@@ -12,6 +12,10 @@ Watch the video on the learning series on Sunbird Discussion Forums [here](https
 
 **Contributors**: EkStep
 
-**Last Release Date**: Feb 23, 2022
+**Last Release Date**: March 2 2022
 
 **Version**: 4.7.0
+
+
+
+&#x20;
